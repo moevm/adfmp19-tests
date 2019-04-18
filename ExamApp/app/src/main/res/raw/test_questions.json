@@ -1,0 +1,1708 @@
+{
+  "exams": [
+    {
+      "id": 1,
+      "name": "OCA",
+      "chapters": [
+        {
+          "id": 4,
+          "name": "Creating and Using Arrays",
+          "examQuestions": [
+            {
+              "id": 76,
+              "questionText": "What symbol is used for a varargs method parameter?",
+              "explanation": "\u003cstrong\u003eB.\u003c/strong\u003e\u003cbr\u003eThree dots (...) are the syntax for a method parameter of type varargs. It is treated like an array.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": ".."
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "..."
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "--"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "---"
+                }
+              ],
+              "correctAnswersIds": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Using Loop Constructs",
+          "examQuestions": [
+            {
+              "id": 86,
+              "questionText": "Which type of loop is best known for its boolean condition that controls entry to the loop?",
+              "explanation": "\u003cstrong\u003eD.\u003c/strong\u003e\u003cbr\u003eA while loop has a condition that returns a boolean that controls the loop. It appears at the beginning and is checked before entering the loop. Therefore, Option D is correct. A traditional for loop also has a boolean condition that is checked before entering the loop. However, it is best known for having a counter variable, making Option B incorrect. Option A is incorrect because the boolean condition on a do-while loop is at the end of the loop. Option C is incorrect because there is no condition as part of the loop construct.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "do-while loop"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "for (traditional)"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "for-each"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "while"
+                }
+              ],
+              "correctAnswersIds": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Working with Methods and Encapsulation",
+          "examQuestions": [
+            {
+              "id": 99,
+              "questionText": "The ___________________ access modifier allows access to everything the ___________________ access modifier does and more.",
+              "explanation": "\u003cstrong\u003eC.\u003c/strong\u003e\u003cbr\u003eThe protected modifier allows access by subclasses and members within the same package, while the package-private modifier allows access only to members in the same package. Therefore, the protected access modifier allows access to everything the package-private access modifier, plus subclasses, making Option C the correct answer. Options A, B, and D are incorrect because the first term is a more restrictive access modifier than the second term.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "package-private, protected"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "protected, public"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "protected, package-private"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "private, package-private"
+                }
+              ],
+              "correctAnswersIds": [
+                3
+              ]
+            },
+            {
+              "id": 100,
+              "questionText": "What is the command to call one constructor from another constructor in the same class?",
+              "explanation": "\u003cstrong\u003eB.\u003c/strong\u003e\u003cbr\u003eThe super() statement is used to call a constructor in a parent class, while the this() statement is used to call a constructor in the same class, making Option B correct and Option A incorrect. Options C and D are incorrect because they are not constructors.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "super()"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "this()"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "that()"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "construct()"
+                }
+              ],
+              "correctAnswersIds": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Working with Inheritance",
+          "examQuestions": [
+            {
+              "id": 123,
+              "questionText": "Which modifier can be applied to an abstract interface method?",
+              "explanation": "\u003cp style\u003d\"font-size: 13px;\"\u003e\u003cspan style\u003d\"font-weight: 700;\"\u003eD.\u003c/span\u003e\u003cbr\u003e\u003cbr\u003e\u003cp style\u003d\"font-size: 13px;\"\u003eAll abstract interface methods are implicitly public, making Option D the correct answer. Option A is incorrect because protected conflicts with the implicit public modifier. Since static methods must have a body and abstract methods cannot have a body, Option B is incorrect. Finally, Option C is incorrect. A method, whether it be in an interface or a class, cannot be declared both final and abstract, as doing so would prevent it from ever being implemented.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "protected"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "static"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "final"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "public"
+                }
+              ],
+              "correctAnswersIds": [
+                4
+              ]
+            },
+            {
+              "id": 124,
+              "questionText": "Which of the following statements about inheritance is true?",
+              "explanation": "\u003cp style\u003d\"font-size: 13px;\"\u003e\u003cspan style\u003d\"font-weight: 700;\"\u003eA.\u003c/span\u003e\u003cbr\u003e\u003cp style\u003d\"font-size: 13px;\"\u003eInheritance is often about improving code reusability, by allowing subclasses to inherit commonly used attributes and methods from parent classes, making Option A the correct answer. Option B is incorrect. Inheritance can lead to either simpler or more complex code, depending on how well it is structured. Option C is also incorrect. While all objects inherit methods from java.lang.Object, this does not apply to primitives. Finally, Option D is incorrect because methods that reference themselves are not a facet of inheritance.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "Inheritance allows objects to access commonly used attributes and methods."
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "Inheritance always leads to simpler code."
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "All primitives and objects inherit a set of methods."
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "Inheritance allows you to write methods that reference themselves."
+                }
+              ],
+              "correctAnswersIds": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Java Basics",
+          "examQuestions": [
+            {
+              "id": 1,
+              "questionText": "Which of the following method signatures is a valid declaration of an entry point in a Java application?",
+              "explanation": "\u003cstrong\u003eD.\u003c/strong\u003e\u003cbr /\u003eAn entry point in a Java application consists of a \u003cspan class\u003d\"InlineCode\"\u003emain()\u003c/span\u003e method with a single \u003cspan class\u003d\"InlineCode\"\u003eString[]\u003c/span\u003e argument, return type of \u003cspan class\u003d\"InlineCode\"\u003evoid\u003c/span\u003e, and modifiers \u003cspan class\u003d\"InlineCode\"\u003epublic\u003c/span\u003e and \u003cspan class\u003d\"InlineCode\"\u003estatic\u003c/span\u003e. The name of the variable in the input argument does not matter. Option A is missing the \u003cspan class\u003d\"InlineCode\"\u003estatic\u003c/span\u003e modifier, Option B is missing the \u003cspan class\u003d\"InlineCode\"\u003eString[]\u003c/span\u003e argument, and Option C has the wrong access modifier and method name. Only Option D fulfills these requirements. Note that the modifier \u003cspan class\u003d\"InlineCode\"\u003efinal\u003c/span\u003e is optional and may be added to an entry point method.\u003cspan class\u003d\"QueryInline\"\u003e\u003co:p\u003e\u003c/o:p\u003e\u003c/span\u003e",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan class\u003d\"InlineCode\"\u003epublic void main(String[] args)\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan class\u003d\"InlineCode\"\u003epublic static void main()\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan class\u003d\"InlineCode\"\u003eprivate static void start(String[] mydata)\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan class\u003d\"InlineCode\"\u003epublic static final void main(String[] mydata)\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                4
+              ]
+            },
+            {
+              "id": 2,
+              "questionText": "What is the proper filename extension for a Java bytecode compiled file?",
+              "explanation": "\u003cstrong\u003eC.\u003c/strong\u003e\u003cbr /\u003eThe proper extension for a Java compiled bytecode file is \u003cspan class\u003d\"InlineCode\"\u003e.class\u003c/span\u003e, making Option C the correct answer.\u003cspan class\u003d\"QueryInline\"\u003e\u003co:p\u003e\u003c/o:p\u003e\u003c/span\u003e",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": ".java"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": ".bytecode"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan class\u003d\"InlineCode\"\u003e.class\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": ".dll"
+                }
+              ],
+              "correctAnswersIds": [
+                3
+              ]
+            },
+            {
+              "id": 3,
+              "questionText": "Which of the following is not a facet of traditional object-oriented programming languages?",
+              "explanation": "\u003cstrong\u003eA.\u003c/strong\u003e\u003cbr /\u003eOptions B, C, and D are each attributes of traditional object-oriented programming. Option A is incorrect as an object-oriented project tends to group data and the actions related to that data into a single object.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "Objects are grouped as procedures, separate from the data they act on."
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003eAn object can take many forms via casting."
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "An object can hold data, referred to as attributes."
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003eAn object can perform actions, via methods."
+                }
+              ],
+              "correctAnswersIds": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Working with Java Data Types",
+          "examQuestions": [
+            {
+              "id": 30,
+              "questionText": "Which of the following declarations does not compile?",
+              "explanation": "\u003cp style\u003d\"font-size: 13px;\"\u003e\u003cspan style\u003d\"font-weight: 700;\"\u003eA.\u003c/span\u003e\u003cbr\u003e\u003cp style\u003d\"font-size: 13px;\"\u003eOption A does not compile because Java does not allow declaring different types as part of the same declaration. The other three options show various legal combinations of combining multiple variables in the same declarations with optional default values.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "double num1, int num2 \u003d0;"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan class\u003d\"InlineCode\"\u003e\u003cspan lang\u003d\"EN-US\"\u003eint num1, num2;\u003c/span\u003e\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan class\u003d\"InlineCode\"\u003e\u003cspan lang\u003d\"EN-US\"\u003eint num1, num2 \u003d0;\u003c/span\u003e\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan class\u003d\"InlineCode\"\u003e\u003cspan lang\u003d\"EN-US\"\u003eint num1 \u003d 0, num2 \u003d0;\u003c/span\u003e\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                1
+              ]
+            },
+            {
+              "id": 31,
+              "questionText": "Which is correct about an instance variable of type String?",
+              "explanation": "\u003cp style\u003d\"font-size: 13px;\"\u003e\u003cspan style\u003d\"font-weight: 700;\"\u003eB.\u003c/span\u003e\u003cbr\u003e\u003cp style\u003d\"font-size: 13px;\"\u003eInstance variables have a default value based on the type. For any non-primitive, including String, that type is a reference to null. Therefore Option B is correct. If the variable was a local variable, Option C would be correct.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan lang\u003d\"EN-US\"\u003eIt defaults to an empty string.\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan lang\u003d\"EN-US\"\u003eIt defaults to \u003c/span\u003e\u003cspan class\u003d\"InlineCode\"\u003e\u003cspan lang\u003d\"EN-US\"\u003enull\u003c/span\u003e\u003c/span\u003e\u003cspan lang\u003d\"EN-US\"\u003e.\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan lang\u003d\"EN-US\"\u003eIt does not have a default value.\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cp class\u003d\"Option\"\u003e\u003cspan lang\u003d\"EN-US\"\u003eIt will not compile without initializing on the declaration line.\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Using Operators and Decision Constructs",
+          "examQuestions": [
+            {
+              "id": 54,
+              "questionText": "Which of the following variable types is not permitted in a switch statement?",
+              "explanation": "\u003cstrong\u003eB.\u003c/strong\u003e\u003cbr\u003eA switch statement supports the primitive types byte, short, char, and int and the classes String, Character, Byte, Short, and Integer. It also supports enumerated types. Floating-point types like float and double are not supported, therefore Option B is the correct answer.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "String"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "double"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "int"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "char"
+                }
+              ],
+              "correctAnswersIds": [
+                2
+              ]
+            },
+            {
+              "id": 55,
+              "questionText": "Which of the following statements about a default branch in a switch statement is correct?",
+              "explanation": "\u003cstrong\u003eC.\u003c/strong\u003e\u003cbr\u003eA default statement inside a switch statement is optional and can be placed in any order within the switch\u0026rsquo;s case statements, making Options A and B incorrect. Option D is an incorrect statement as a switch statement can be composed of a single default statement and no case statements. Option C is correct because a default statement does not take a value, unlike a case statement.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "All switch statements must include a default statement."
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "The default statement is required to be placed after all case statements."
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "Unlike a case statement, the default statement does not take a value."
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "A default statement can only be used when at least one case statement is present."
+                }
+              ],
+              "correctAnswersIds": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Handling Exceptions",
+          "examQuestions": [
+            {
+              "id": 147,
+              "questionText": "Choose the answer that lists the keywords in the order that they would be used together.",
+              "explanation": "\u003cstrong\u003eB.\u003c/strong\u003e\u003cbr /\u003eThe correct order of blocks is try, catch, and finally, making Option B the correct answer.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "catch, try, finally"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "try, catch, finally"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "finally, catch, try"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "try, finally, catch"
+                }
+              ],
+              "correctAnswersIds": [
+                2
+              ]
+            },
+            {
+              "id": 149,
+              "questionText": "Which of the following Throwable types is it recommended not to catch in a Java application?",
+              "explanation": "\u003cstrong\u003eA.\u003c/strong\u003e\u003cbr /\u003eWhile Exception and RuntimeException are commonly caught in Java applications, it is recommended Error not be caught. An Error often indicates a failure of the JVM which cannot be recovered from. For this reason, Option A is correct, and Options C and D are incorrect. Option B is not a class defined in the Java API; therefore, it is also incorrect.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "Error"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "CheckedException"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "Exception"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "RuntimeException"
+                }
+              ],
+              "correctAnswersIds": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Working with Selected Classes from the Java API",
+          "examQuestions": [
+            {
+              "id": 169,
+              "questionText": "What is the best reason for using StringBuilder instead of String?",
+              "explanation": "\u003cp style\u003d\"font-size: 13px;\"\u003e\u003cspan style\u003d\"font-weight: 700;\"\u003eC.\u003c/span\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cp style\u003d\"font-size: 13px;\"\u003eOption A is incorrect because StringBuilder does not support multiple threads. In fact, threads aren’t even covered on the OCA, which should be your clue that this answer is wrong! You don’t need to know this for the exam, but StringBuffer supports multiple threads. Option B is incorrect because \u003d\u003d compares references, not values. Option D is incorrect because both String and StringBuilder support languages and encodings. Option C is correct and the primary reason to use StringBuilder. String often creates a new object each time you call certain methods on the object like concat(). StringBuilder optimizes operations like append() because it is mutable.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "StringBuilder adds support for multiple threads."
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "StringBuilder can use \u003d\u003d to compare values."
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "StringBuilder saves memory by reducing the number of objects created."
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "StringBuilder supports different languages and encodings."
+                }
+              ],
+              "correctAnswersIds": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": 863,
+          "name": "Java Building Blocks",
+          "examQuestions": [
+            {
+              "id": 29903,
+              "questionText": "Which of the following are valid Java identifiers? (Choose all that apply)",
+              "explanation": "Option A is valid because you can use the dollar sign in identifiers. Option B is valid because you can use an underscore in identifiers. Option C is not a valid identifier because \u003cspan class\u003d\"dCode dNoWrap\"\u003etrue\u003c/span\u003e is a Java reserved word. Option D is not valid because the dot (.) is not allowed in identifiers. Option E is valid because Java is case sensitive, so \u003cspan class\u003d\"dCode dNoWrap\"\u003ePublic\u003c/span\u003e is not a reserved word and therefore a valid identifier. Option F is not valid because the first character is not a letter, $, or _.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eA$B\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "_\u003cspan class\u003d\"dCode dNoWrap\"\u003ehelloWorld\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003etrue\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.lang\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ePublic\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e1980\u003c/span\u003e_\u003cspan class\u003d\"dCode dNoWrap\"\u003es\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "id": 29904,
+              "questionText": "What is the output of the following program?\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e1:\u0026amp;#160;public\u0026amp;#160;class\u0026amp;#160;WaterBottle\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e2:\u0026amp;#160;private\u0026amp;#160;String\u0026amp;#160;brand;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;private\u0026amp;#160;boolean\u0026amp;#160;empty;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;main(String[]\u0026amp;#160;args)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;WaterBottle\u0026amp;#160;wb\u0026amp;#160;\u003d\u0026amp;#160;new\u0026amp;#160;WaterBottle();\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(\"Empty\u0026amp;#160;\u003d\u0026amp;#160;\"\u0026amp;#160;+\u0026amp;#160;wb.empty);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(\",\u0026amp;#160;Brand\u0026amp;#160;\u003d\u0026amp;#160;\"\u0026amp;#160;+\u0026amp;#160;wb.brand);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;\u0026amp;#160;}\u0026amp;#160;}\u0026amp;#160;\u003c/span\u003e",
+              "explanation": "Boolean fields initialize to \u003cspan class\u003d\"dCode dNoWrap\"\u003efalse\u003c/span\u003e and references initialize to \u003cspan class\u003d\"dCode dNoWrap\"\u003enull\u003c/span\u003e, so \u003cspan class\u003d\"dCode dNoWrap\"\u003eEmpty\u003c/span\u003e is \u003cspan class\u003d\"dCode dNoWrap\"\u003efalse\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003eBrand\u003c/span\u003e is \u003cspan class\u003d\"dCode dNoWrap\"\u003enull\u003c/span\u003e. \u003cspan class\u003d\"dCode dNoWrap\"\u003eBrand\u0026amp;#160;\u003d\u0026amp;#160;null\u003c/span\u003e is output. ",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "Line 6 generates a compiler error. "
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "Line 7 generates a compiler error. "
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "There is no output."
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eEmpty\u0026amp;#160;\u003d\u0026amp;#160;false,\u0026amp;#160;Brand\u0026amp;#160;\u003d\u0026amp;#160;null\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eEmpty\u0026amp;#160;\u003d\u0026amp;#160;false,\u0026amp;#160;Brand\u0026amp;#160;\u003d\u0026amp;#160;\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eEmpty\u0026amp;#160;\u003d\u0026amp;#160;null,\u0026amp;#160;Brand\u0026amp;#160;\u003d\u0026amp;#160;null\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": 864,
+          "name": "Operators and Statements",
+          "examQuestions": [
+            {
+              "id": 29926,
+              "questionText": "Which of the Java following operators can be used with \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e variables? (Choose all that apply)",
+              "explanation": "Option A is the equality operator and can be used on numeric primitives, \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e values, and object references. Options B and C are both arithmetic operators and cannot be applied to a \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e value. Option D is the logical negation operator and is used exclusively with \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e values. Option E is the modulus operator, which can only be used with numeric primitives. Finally, option F is a relational operator used that compares the values of two numbers.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003d\u003d\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e+\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e--\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e!\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e%\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#60;\u003d\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": 29927,
+              "questionText": "What data type (or types) will allow the following code snippet to compile? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003ebyte\u0026amp;#160;x\u0026amp;#160;\u003d\u0026amp;#160;5;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003ebyte\u0026amp;#160;y\u0026amp;#160;\u003d\u0026amp;#160;10;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e_____\u0026amp;#160;z\u0026amp;#160;\u003d\u0026amp;#160;x\u0026amp;#160;+\u0026amp;#160;y;\u003c/span\u003e",
+              "explanation": "The value is \u003cspan class\u003d\"dCode dNoWrap\"\u003ex\u0026amp;#160;+\u0026amp;#160;y\u003c/span\u003e is automatically promoted to \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e, so \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e and data types that can be promoted automatically from \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e will work. Options A, B, D are such data types. Option C will not work because \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e is not a numeric data type. Options E and F will not work without an explicit cast to a smaller data type.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003elong\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003edouble\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eshort\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ebyte\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": 865,
+          "name": "Core Java APIs",
+          "examQuestions": [
+            {
+              "id": 29946,
+              "questionText": "What is output by the following code? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e1:\u0026amp;#160;public\u0026amp;#160;class\u0026amp;#160;Fish\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e2:\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;main(String[]\u0026amp;#160;args)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;int\u0026amp;#160;numFish\u0026amp;#160;\u003d\u0026amp;#160;4;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;String\u0026amp;#160;fishType\u0026amp;#160;\u003d\u0026amp;#160;\"tuna\";\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;String\u0026amp;#160;anotherFish\u0026amp;#160;\u003d\u0026amp;#160;numFish\u0026amp;#160;+\u0026amp;#160;1;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.println(anotherFish\u0026amp;#160;+\u0026amp;#160;\"\u0026amp;#160;\"\u0026amp;#160;+\u0026amp;#160;fishType);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.println(numFish\u0026amp;#160;+\u0026amp;#160;\"\u0026amp;#160;\"\u0026amp;#160;+\u0026amp;#160;1);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;\u0026amp;#160;}\u0026amp;#160;}\u003c/span\u003e",
+              "explanation": "Line 5 does not compile. This question is checking to see if you are paying attention to the types. \u003cspan class\u003d\"dCode dNoWrap\"\u003enumFish\u003c/span\u003e is an \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003e1\u003c/span\u003e is an \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e. Therefore, we use numeric addition and get 5. The problem is that we can\u0027t store an \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e in a \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e variable. Supposing line 5 said \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u0026amp;#160;anotherFish\u0026amp;#160;\u003d\u0026amp;#160;numFish\u0026amp;#160;+\u0026amp;#160;1\u0026amp;#160;+\u0026amp;#160;\"\";\u003c/span\u003e. In that case, the answer would be options A and D. The variable defined on line 5 would be the string \u003cspan class\u003d\"dCode dNoWrap\"\u003e\"5\"\u003c/span\u003e, and both output statements would use concatenation.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e4\u0026amp;#160;1\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e41\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e5\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e5\u0026amp;#160;tuna\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e5tuna\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e51tuna\u003c/span\u003e"
+                },
+                {
+                  "id": 7,
+                  "textAnswer": "The code does not compile."
+                }
+              ],
+              "correctAnswersIds": [
+                7
+              ]
+            },
+            {
+              "id": 29947,
+              "questionText": "Which of the following are output by this code? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;String\u0026amp;#160;s\u0026amp;#160;\u003d\u0026amp;#160;\"Hello\";\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;String\u0026amp;#160;t\u0026amp;#160;\u003d\u0026amp;#160;new\u0026amp;#160;String(s);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;if\u0026amp;#160;(\"Hello\".equals(s))\u0026amp;#160;System.out.println(\"one\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;if\u0026amp;#160;(t\u0026amp;#160;\u003d\u003d\u0026amp;#160;s)\u0026amp;#160;System.out.println(\"two\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;if\u0026amp;#160;(t.equals(s))\u0026amp;#160;System.out.println(\"three\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;if\u0026amp;#160;(\"Hello\"\u0026amp;#160;\u003d\u003d\u0026amp;#160;s)\u0026amp;#160;System.out.println(\"four\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e9:\u0026amp;#160;if\u0026amp;#160;(\"Hello\"\u0026amp;#160;\u003d\u003d\u0026amp;#160;t)\u0026amp;#160;System.out.println(\"five\");\u003c/span\u003e",
+              "explanation": "The code compiles fine. Line 3 points to the \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e in the string pool. Line 4 calls the \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e constructor explicitly and is therefore a different object than \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003ci\u003es\u003c/i\u003e\u003c/span\u003e. Lines 5 and 7 check for object equality, which is true, and so print \u003cspan class\u003d\"dCode dNoWrap\"\u003eone\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003ethree\u003c/span\u003e. Line 6 uses object reference equality, which is not true since we have different objects. Line 7 also compares references but is true since both references point to the object from the string pool. Finally, line 8 compares one object from the string pool with one that was explicitly constructed and returns \u003cspan class\u003d\"dCode dNoWrap\"\u003efalse\u003c/span\u003e.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eone\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003etwo\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ethree\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003efour\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003efive\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "The code does not compile."
+                }
+              ],
+              "correctAnswersIds": [
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "id": 29948,
+              "questionText": "Which are true statements? (Choose all that apply)",
+              "explanation": "Immutable means the state of an object cannot change once it is created. Immutable objects can be garbage collected just like mutable objects. \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e is immutable. \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e can be mutated with methods like \u003cspan class\u003d\"dCode dNoWrap\"\u003eappend()\u003c/span\u003e. Although \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuffer\u003c/span\u003e isn\u0027t on the exam, you should know about it anyway in case older questions haven\u0027t been removed.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "An immutable object can be modified."
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "An immutable object cannot be modified."
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "An immutable object can be garbage collected."
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "An immutable object cannot be garbage collected."
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e is immutable."
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuffer\u003c/span\u003e is immutable."
+                },
+                {
+                  "id": 7,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e is immutable."
+                }
+              ],
+              "correctAnswersIds": [
+                2,
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": 866,
+          "name": "Methods and Encapsulation",
+          "examQuestions": [
+            {
+              "id": 29979,
+              "questionText": "Which of the following can fill in the blank in this code to make it compile? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;class\u0026amp;#160;Ant\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;_____\u0026amp;#160;void\u0026amp;#160;method()\u0026amp;#160;{\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e}\u003c/span\u003e",
+              "explanation": "\u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u003c/span\u003e is a return type. Only the access modifier or optional specifiers are allowed before the return type. Option C is correct, creating a method with private access. Option B is correct, creating a method with default access and the optional specifier \u003cspan class\u003d\"dCode dNoWrap\"\u003efinal\u003c/span\u003e. Since default access does not require a modifier, we get to jump right to \u003cspan class\u003d\"dCode dNoWrap\"\u003efinal\u003c/span\u003e. Option A is incorrect because default access omits the access modifier rather than specifying default. Option D is incorrect because Java is case sensitive. It would have been correct if \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u003c/span\u003e were the choice. Option E is incorrect because the method already has a \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u003c/span\u003e return type. Option F is incorrect because labels are not allowed for methods.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003efinal\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eprivate\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ePublic\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ezzz:\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                2,
+                3
+              ]
+            },
+            {
+              "id": 29980,
+              "questionText": "Which of the following compile? (Choose all that apply)",
+              "explanation": "Options A and D are correct because the optional specifiers are allowed in any order. Options B and C are incorrect because they each have two return types. Options E and F are incorrect because the return type is before the optional specifier and access modifier, respectively.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003efinal\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;method4()\u0026amp;#160;{\u0026amp;#160;}\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;final\u0026amp;#160;int\u0026amp;#160;void\u0026amp;#160;method()\u0026amp;#160;{\u0026amp;#160;}\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eprivate\u0026amp;#160;void\u0026amp;#160;int\u0026amp;#160;method()\u0026amp;#160;{\u0026amp;#160;}\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u0026amp;#160;final\u0026amp;#160;void\u0026amp;#160;method3()\u0026amp;#160;{\u0026amp;#160;}\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u0026amp;#160;final\u0026amp;#160;method()\u0026amp;#160;{}\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u0026amp;#160;public\u0026amp;#160;method()\u0026amp;#160;{\u0026amp;#160;}\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": 29981,
+              "questionText": "Which of the following methods compile? (Choose all that apply)",
+              "explanation": "Options A and C are correct because a \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u003c/span\u003e method is allowed to have a return statement as long as it doesn\u0027t try to return a value. Options B and G do not compile because \u003cspan class\u003d\"dCode dNoWrap\"\u003enull\u003c/span\u003e requires a reference object as the return type. \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u003c/span\u003e is not a reference object since it is a marker for no return type. \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e is not a reference object since it is a primitive. Option D is correct because it returns an \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e value. Option E does not compile because it tries to return a \u003cspan class\u003d\"dCode dNoWrap\"\u003edouble\u003c/span\u003e when the return type is \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e. Since a \u003cspan class\u003d\"dCode dNoWrap\"\u003edouble\u003c/span\u003e cannot be assigned to an \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e, it cannot be returned as one either. Option F does not compile because no value is actually returned.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;void\u0026amp;#160;methodA()\u0026amp;#160;{\u0026amp;#160;\u0026amp;#160;return;}\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;void\u0026amp;#160;methodB()\u0026amp;#160;{\u0026amp;#160;\u0026amp;#160;return\u0026amp;#160;null;}\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;void\u0026amp;#160;methodD()\u0026amp;#160;{}\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;int\u0026amp;#160;methodD()\u0026amp;#160;{\u0026amp;#160;\u0026amp;#160;return\u0026amp;#160;9;}\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;int\u0026amp;#160;methodE()\u0026amp;#160;{\u0026amp;#160;\u0026amp;#160;return\u0026amp;#160;9.0;}\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;int\u0026amp;#160;methodF()\u0026amp;#160;{\u0026amp;#160;\u0026amp;#160;return;}\u003c/span\u003e"
+                },
+                {
+                  "id": 7,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;int\u0026amp;#160;methodG()\u0026amp;#160;{\u0026amp;#160;\u0026amp;#160;return\u0026amp;#160;null;}\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                1,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": 867,
+          "name": "Class Design",
+          "examQuestions": [
+            {
+              "id": 30008,
+              "questionText": "What modifiers are implicitly applied to all interface methods? (Choose all that apply)",
+              "explanation": "All methods are implicitly \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u003c/span\u003e, so option B is correct and option A is not. Interface methods may be declared as \u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u003c/span\u003e or \u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e but are never implicitly added, so options C and F are incorrect. Option D is incorrect\u0026amp;#8212;\u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u003c/span\u003e is not a modifier; it is a return type. Option E is a tricky one, because prior to Java 8 all interface methods would be assumed to be \u003cspan class\u003d\"dCode dNoWrap\"\u003eabstract\u003c/span\u003e. Since Java 8 now includes default and static methods and they are never abstract, you cannot assume the \u003cspan class\u003d\"dCode dNoWrap\"\u003eabstract\u003c/span\u003e modifier will be implicitly applied to all methods by the compiler.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eprotected\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eabstract\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                2
+              ]
+            },
+            {
+              "id": 30009,
+              "questionText": "What is the output of the following code?\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e1:\u0026amp;#160;class\u0026amp;#160;Mammal\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e2:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;Mammal(int\u0026amp;#160;age)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(\"Mammal\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;public\u0026amp;#160;class\u0026amp;#160;Platypus\u0026amp;#160;extends\u0026amp;#160;Mammal\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;Platypus()\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(\"Platypus\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e9:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e10:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;main(String[]\u0026amp;#160;args)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e11:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;new\u0026amp;#160;Mammal(5);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e12:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e13:\u0026amp;#160;}\u003c/span\u003e",
+              "explanation": "The code will not compile because the parent class \u003cspan class\u003d\"dCode dNoWrap\"\u003eMammal\u003c/span\u003e doesn\u0027t define a no-argument constructor, so the first line of a \u003cspan class\u003d\"dCode dNoWrap\"\u003ePlatypus\u003c/span\u003e constructor should be an explicit call to \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper(int\u0026amp;#160;age)\u003c/span\u003e. If there was such a call, then the output would be \u003cspan class\u003d\"dCode dNoWrap\"\u003eMammalPlatypus\u003c/span\u003e, since the super constructor is executed before the child constructor.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ePlatypus\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eMammal\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ePlatypusMammal\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eMammalPlatypus\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "The code will not compile because of line 8."
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "The code will not compile because of line 11."
+                }
+              ],
+              "correctAnswersIds": [
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": 868,
+          "name": "Exceptions",
+          "examQuestions": [
+            {
+              "id": 30028,
+              "questionText": "Which of the following statements are true? (Choose all that apply)",
+              "explanation": "Runtime exceptions are also known as unchecked exceptions. They are allowed to be declared, but they don\u0027t have to be. Checked exceptions must be handled or declared. Legally, you can handle \u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.lang.Error\u003c/span\u003e subclasses, but it\u0027s not a good idea.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "Runtime exceptions are the same thing as checked exceptions."
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "Runtime exceptions are the same thing as unchecked exceptions."
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "You can declare only checked exceptions."
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "You can declare only unchecked exceptions."
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "You can handle only \u003cspan class\u003d\"dCode dNoWrap\"\u003eException\u003c/span\u003e subclasses."
+                }
+              ],
+              "correctAnswersIds": [
+                2
+              ]
+            },
+            {
+              "id": 30029,
+              "questionText": "Which of the following pairs fill in the blanks to make this code compile? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;public\u0026amp;#160;void\u0026amp;#160;ohNo()\u0026amp;#160;_____\u0026amp;#160;Exception\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;_____________\u0026amp;#160;Exception();\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e9:\u0026amp;#160;}\u003c/span\u003e",
+              "explanation": "In a method declaration, the keyword \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrows\u003c/span\u003e is used. To actually throw an exception, the keyword \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrow\u003c/span\u003e is used and a new exception is created.",
+              "answers": [
+                {
+                  "id": 1,
+                  "textAnswer": "On line 7, fill in \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrow\u003c/span\u003e"
+                },
+                {
+                  "id": 2,
+                  "textAnswer": "On line 7, fill in \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrows\u003c/span\u003e"
+                },
+                {
+                  "id": 3,
+                  "textAnswer": "On line 8, fill in \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrow\u003c/span\u003e"
+                },
+                {
+                  "id": 4,
+                  "textAnswer": "On line 8, fill in \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrow\u0026amp;#160;new\u003c/span\u003e"
+                },
+                {
+                  "id": 5,
+                  "textAnswer": "On line 8, fill in \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrows\u003c/span\u003e"
+                },
+                {
+                  "id": 6,
+                  "textAnswer": "On line 8, fill in \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrows\u0026amp;#160;new\u003c/span\u003e"
+                }
+              ],
+              "correctAnswersIds": [
+                2,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "unsortedQuestions": [
+        {
+          "id": 350,
+          "questionText": "The operators +\u003d, ___, ___, ____, ____, and ++ are listed in increasing or the same level of operator precedence. (Choose two.)",
+          "explanation": "\u003cstrong\u003eC, E.\u003c/strong\u003e\u003cbr\u003eIn Option A, the assignment operator \u003d incorrectly comes after the addition + operator. In Option B, the addition operator + incorrectly comes after the division / operator. In Option D, the subtraction operator - incorrectly comes after the multiplication * operator. This leaves Options C and E as the correct answers. For these answers, it may help to remember that the modulus operator %, multiplication operator *, and division operator / have the same operator precedence.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "-, +, \u003d, --"
+            },
+            {
+              "id": 2,
+              "textAnswer": "%, *, /, +"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003d, +, /, *"
+            },
+            {
+              "id": 4,
+              "textAnswer": "^, *, -, \u003d\u003d"
+            },
+            {
+              "id": 5,
+              "textAnswer": "*, /, %, --"
+            }
+          ],
+          "correctAnswersIds": [
+            3,
+            5
+          ]
+        },
+        {
+          "id": 351,
+          "questionText": "Which of the following are valid JavaBean signatures? (Choose three.)",
+          "explanation": "\u003cstrong\u003eB, C, F.\u003c/strong\u003e\u003cbr\u003eOption A is incorrect because a getter should not take a value. Option D is incorrect because the prefix is should only be with boolean values. Option E is incorrect because gimme is not a valid JavaBean prefix. Options B, C, and F are each proper JavaBean method signatures.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "public byte getNose(String nose)"
+            },
+            {
+              "id": 2,
+              "textAnswer": "public void setHead(int head)"
+            },
+            {
+              "id": 3,
+              "textAnswer": "public String getShoulders()"
+            },
+            {
+              "id": 4,
+              "textAnswer": "public long isMouth()"
+            },
+            {
+              "id": 5,
+              "textAnswer": "public void gimmeEars()"
+            },
+            {
+              "id": 6,
+              "textAnswer": "public boolean isToes()"
+            }
+          ],
+          "correctAnswersIds": [
+            2,
+            3,
+            6
+          ]
+        },
+        {
+          "id": 352,
+          "questionText": "Which of the following statements about java.lang.Error are most accurate? (Choose two.)",
+          "explanation": "\u003cstrong\u003eB, D.\u003c/strong\u003e\u003cbr\u003eOptions A and E are incorrect because they indicate states that the application can possibly recover from. An Error generally indicates an unrecoverable problem. While it is possible to catch an Error, it is strongly recommended that an application never do so, making Options B and D correct. Finally, Option C is incorrect because Error extends from Throwable, not Exception, and is unchecked.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "An Error should be thrown if a file system resource becomes temporarily unavailable."
+            },
+            {
+              "id": 2,
+              "textAnswer": "An application should never catch an Error."
+            },
+            {
+              "id": 3,
+              "textAnswer": "Error is a subclass of Exception, making it a checked exception."
+            },
+            {
+              "id": 4,
+              "textAnswer": "It is possible to catch and handle an Error thrown in an application."
+            },
+            {
+              "id": 5,
+              "textAnswer": "An Error should be thrown if a user enters invalid input."
+            }
+          ],
+          "correctAnswersIds": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": 353,
+          "questionText": "Which of the following use generics and compile without warnings? (Choose two.)",
+          "explanation": "\u003cstrong\u003eC, E.\u003c/strong\u003e\u003cbr\u003eThe diamond operator is only allowed to be used when instantiating rather than declaring. In other words, it can\u0026rsquo;t go on the left side of the equal sign. Therefore, Options B, D, and F are incorrect. The remaining three options compile. However, Option A produces a warning because generics are not used on the right side of the assignment operator. Therefore, Options C and E are correct. Option C is better than Option E since it uses the diamond operator rather than specifying a redundant type.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "List\u0026lt;String\u0026gt; a \u003d new ArrayList();"
+            },
+            {
+              "id": 2,
+              "textAnswer": "List\u0026lt;\u0026gt; b \u003d new ArrayList();"
+            },
+            {
+              "id": 3,
+              "textAnswer": "List\u0026lt;String\u0026gt; c \u003d new ArrayList\u0026lt;\u0026gt;();"
+            },
+            {
+              "id": 4,
+              "textAnswer": "List\u0026lt;\u0026gt; d \u003d new ArrayList\u0026lt;\u0026gt;();"
+            },
+            {
+              "id": 5,
+              "textAnswer": "List\u0026lt;String\u0026gt; e \u003d new ArrayList\u0026lt;String\u0026gt;();"
+            },
+            {
+              "id": 6,
+              "textAnswer": "List\u0026lt;\u0026gt; f \u003d new ArrayList\u0026lt;String\u0026gt;();"
+            }
+          ],
+          "correctAnswersIds": [
+            3,
+            5
+          ]
+        },
+        {
+          "id": 354,
+          "questionText": "Which keywords are required with a try statement?\u003cbr /\u003eI. finalize\u003cbr /\u003eII. catch\u003cbr /\u003eIII. throws\u003cbr /\u003eIV. finally",
+          "explanation": "\u003cstrong\u003eF.\u003c/strong\u003e\u003cbr\u003eA try statement requires a catch or a finally block. It can also have both a catch and a finally block. Since no option matches these rules, Option F is the correct answer. Note that finalize is not a keyword but a method inherited from java.lang.Object. Lastly, the throws keyword can be applied to method declarations and is not used as part of a try statement.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "I only"
+            },
+            {
+              "id": 2,
+              "textAnswer": "II only"
+            },
+            {
+              "id": 3,
+              "textAnswer": "III only"
+            },
+            {
+              "id": 4,
+              "textAnswer": "IV only"
+            },
+            {
+              "id": 5,
+              "textAnswer": "I or II, or both"
+            },
+            {
+              "id": 6,
+              "textAnswer": "None of the above"
+            }
+          ],
+          "correctAnswersIds": [
+            6
+          ]
+        },
+        {
+          "id": 355,
+          "questionText": "Which modifiers can be independently applied to an interface method? (Choose three.)",
+          "explanation": "\u003cstrong\u003eA, C, F.\u003c/strong\u003e\u003cbr\u003eAn interface method is exactly one of three types: default, static, or abstract. For this reason, Options A, C, and F are correct. An interface method cannot be protected nor private because the access modifier is always public, even when not specified, making Options B and D incorrect. Option E is also incorrect because final cannot be applied to static methods, since they cannot be overridden. It can also not be applied to default and abstract methods because they are always able to be overridden.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "default"
+            },
+            {
+              "id": 2,
+              "textAnswer": "protected"
+            },
+            {
+              "id": 3,
+              "textAnswer": "static"
+            },
+            {
+              "id": 4,
+              "textAnswer": "private"
+            },
+            {
+              "id": 5,
+              "textAnswer": "final"
+            },
+            {
+              "id": 6,
+              "textAnswer": "abstract"
+            }
+          ],
+          "correctAnswersIds": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "id": 356,
+          "questionText": "What statements are true about compiling a Java class file? (Choose two.)",
+          "explanation": "\u003cstrong\u003eB, F.\u003c/strong\u003e\u003cbr\u003eA class may be defined without a package statement, making the class part of the default package. For this reason, Options A and D are incorrect. Every Java class implicitly imports exactly one package, java.lang.*, making Option B correct and Option C incorrect. Option E is incorrect because an import statement is not required. Finally, Option F is correct; any class that does not extend another class implicitly extends java.lang.Object.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "If the file does not contain a package statement, then the compiler considers the class part of the java.lang package."
+            },
+            {
+              "id": 2,
+              "textAnswer": "The compiler assumes every class implicitly imports the java.lang.* package."
+            },
+            {
+              "id": 3,
+              "textAnswer": "The compiler assumes every class implicitly imports the java.util.* package."
+            },
+            {
+              "id": 4,
+              "textAnswer": "Java requires every file to declare a package statement."
+            },
+            {
+              "id": 5,
+              "textAnswer": "Java requires every file to declare at least one import statement."
+            },
+            {
+              "id": 6,
+              "textAnswer": "If the class declaration does not extend another class, then it implicitly extends the java.lang.Object class."
+            }
+          ],
+          "correctAnswersIds": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": 357,
+          "questionText": "Given a variable x, _____ decreases the value of x by 1 and returns the original value, while _____ increases the value of x by 1 and returns the new value.",
+          "explanation": "\u003cstrong\u003eA.\u003c/strong\u003e\u003cbr\u003ePrefix operators, such as --x and ++x, modify the variable and evaluate to the new value, while postfix operators, such as x-- and x++, modify the variable but return the original value. Therefore, Option A is the correct answer.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "x--, ++x"
+            },
+            {
+              "id": 2,
+              "textAnswer": "x--, x++"
+            },
+            {
+              "id": 3,
+              "textAnswer": "--x, x++"
+            },
+            {
+              "id": 4,
+              "textAnswer": "--x, ++x"
+            }
+          ],
+          "correctAnswersIds": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "miscChapters": [
+    {
+      "id": 870,
+      "name": "Practice Exam 2",
+      "examQuestions": [
+        {
+          "id": 30151,
+          "questionText": "What is the result of the following code?\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e1:\u0026amp;#160;public\u0026amp;#160;class\u0026amp;#160;Counts\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e2:\u0026amp;#160;\u0026amp;#160;private\u0026amp;#160;boolean\u0026amp;#160;b;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;main(String[]\u0026amp;#160;args)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;Counts\u0026amp;#160;c\u0026amp;#160;\u003d\u0026amp;#160;new\u0026amp;#160;Counts();\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;int\u0026amp;#160;one,\u0026amp;#160;two\u0026amp;#160;\u003d\u0026amp;#160;0;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;if\u0026amp;#160;(c.b)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.println(one);\u0026amp;#160;}\u0026amp;#160;}\u0026amp;#160;}\u003c/span\u003e",
+          "explanation": "Since \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003ci\u003eb\u003c/i\u003e\u003c/span\u003e is an instance variable, it is initialized to the default value of \u003cspan class\u003d\"dCode dNoWrap\"\u003efalse\u003c/span\u003e. \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003ci\u003etwo\u003c/i\u003e\u003c/span\u003e is explicitly initialized to 0. \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003ci\u003eone\u003c/i\u003e\u003c/span\u003e is a trick. If both variables were set to \u003cspan class\u003d\"dCode dNoWrap\"\u003e0\u003c/span\u003e, the code would say \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u0026amp;#160;one\u0026amp;#160;\u003d\u0026amp;#160;0,\u0026amp;#160;two\u0026amp;#160;\u003d\u0026amp;#160;0;\u003c/span\u003e. Line 7 refers to a variable that was not initialized and fails to compile.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "Compiler error on line 5"
+            },
+            {
+              "id": 2,
+              "textAnswer": "Compiler error on line 6"
+            },
+            {
+              "id": 3,
+              "textAnswer": "Compiler error on line 7"
+            },
+            {
+              "id": 4,
+              "textAnswer": "Compiles successfully and prints \u003cspan class\u003d\"dCode dNoWrap\"\u003e0\u003c/span\u003e"
+            },
+            {
+              "id": 5,
+              "textAnswer": "Compiles successfully and prints \u003cspan class\u003d\"dCode dNoWrap\"\u003enull\u003c/span\u003e"
+            },
+            {
+              "id": 6,
+              "textAnswer": "Compiles successfully with no output"
+            }
+          ],
+          "correctAnswersIds": [
+            3
+          ]
+        },
+        {
+          "id": 30150,
+          "questionText": "Given the following class definitions, which method signature could appear in a subclass of \u003cspan class\u003d\"dCode dNoWrap\"\u003eAlbatross\u003c/span\u003e? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;abstract\u0026amp;#160;class\u0026amp;#160;SeaBird\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;abstract\u0026amp;#160;void\u0026amp;#160;fly(int\u0026amp;#160;height);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;abstract\u0026amp;#160;class\u0026amp;#160;Albatross\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;abstract\u0026amp;#160;Long\u0026amp;#160;fly();\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e}\u003c/span\u003e",
+          "explanation": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eAlbatross\u003c/span\u003e is not a subclass of \u003cspan class\u003d\"dCode dNoWrap\"\u003eSeaBird\u003c/span\u003e, so you can ignore the first declaration \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u0026amp;#160;fly(int\u0026amp;#160;height)\u003c/span\u003e in answering the question. Option A is an overloaded method of \u003cspan class\u003d\"dCode dNoWrap\"\u003efly()\u003c/span\u003e, but it\u0027s an invalid definition since a method cannot be marked both \u003cspan class\u003d\"dCode dNoWrap\"\u003eabstract\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003eprivate\u003c/span\u003e\u0026amp;#8212;no class would be able to implement it. Option B is correct\u0026amp;#8212;it is an overloaded method, not an overridden one\u0026amp;#8212;so the access modifier change from \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u003c/span\u003e to \u003cspan class\u003d\"dCode dNoWrap\"\u003eprotected\u003c/span\u003e is allowed. Option C is incorrect because \u003cspan class\u003d\"dCode dNoWrap\"\u003eNumber\u003c/span\u003e is not a subclass of \u003cspan class\u003d\"dCode dNoWrap\"\u003eLong\u003c/span\u003e\u0026amp;#8212;it is a superclass; therefore, they are not covariant return types. Option D is a correct override of the \u003cspan class\u003d\"dCode dNoWrap\"\u003efly()\u003c/span\u003e method, since the access modifiers are the same between the parent and child class. Option E is correct since \u003cspan class\u003d\"dCode dNoWrap\"\u003eprotected\u003c/span\u003e is considered a less restrictive override compared to the default access modifier.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eprivate\u0026amp;#160;abstract\u0026amp;#160;void\u0026amp;#160;fly(int\u0026amp;#160;height)\u003c/span\u003e"
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eprotected\u0026amp;#160;void\u0026amp;#160;fly(int\u0026amp;#160;height)\u003c/span\u003e"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;Number\u0026amp;#160;fly()\u003c/span\u003e"
+            },
+            {
+              "id": 4,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eLong\u0026amp;#160;fly()\u003c/span\u003e"
+            },
+            {
+              "id": 5,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eprotected\u0026amp;#160;Long\u0026amp;#160;fly()\u003c/span\u003e"
+            }
+          ],
+          "correctAnswersIds": [
+            2,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 871,
+      "name": "Practice Exam 3",
+      "examQuestions": [
+        {
+          "id": 30188,
+          "questionText": "Which of the following are true statements about interface methods? (Choose all that apply)",
+          "explanation": "An interface may only be marked at most one of the following: \u003cspan class\u003d\"dCode dNoWrap\"\u003eabstract\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u003c/span\u003e, or \u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e, so options A and F are correct. Option B is incorrect since interface methods are assumed to be public. Option C is correct since an interface method can be overridden with an abstract method that follows the appropriate rules for method overriding. A class that implements two interfaces can have duplicate abstract and static methods, so option D is correct. A class that implements two interfaces can only have a duplicate default method if the class overrides the default method; otherwise, a compiler error will be created, so option E is incorrect.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "They can be declared abstract, static, or default."
+            },
+            {
+              "id": 2,
+              "textAnswer": "They are assumed to be protected."
+            },
+            {
+              "id": 3,
+              "textAnswer": "They can be overridden with an abstract method in an abstract class that implements the interface."
+            },
+            {
+              "id": 4,
+              "textAnswer": "A class can implement two interfaces that declare the same abstract method."
+            },
+            {
+              "id": 5,
+              "textAnswer": "A class can implement two interfaces that declare the same default method without overriding it."
+            },
+            {
+              "id": 6,
+              "textAnswer": "If an interface method is marked \u003cspan class\u003d\"dCode dNoWrap\"\u003eabstract\u003c/span\u003e, then it cannot be marked \u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u003c/span\u003e or \u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e."
+            }
+          ],
+          "correctAnswersIds": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "id": 30211,
+          "questionText": "Which are true of the following code?\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e1:\u0026amp;#160;public\u0026amp;#160;class\u0026amp;#160;C\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e2:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;String\u0026amp;#160;seq\u0026amp;#160;\u003d\u0026amp;#160;\"c\";\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;static\u0026amp;#160;{\u0026amp;#160;seq\u0026amp;#160;+\u003d\u0026amp;#160;\"g\";\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;{\u0026amp;#160;seq\u0026amp;#160;+\u003d\u0026amp;#160;\"z\";\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;main(String[]\u0026amp;#160;args)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;C\u0026amp;#160;c1\u0026amp;#160;\u003d\u0026amp;#160;new\u0026amp;#160;C();\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;C\u0026amp;#160;c2\u0026amp;#160;\u003d\u0026amp;#160;new\u0026amp;#160;C();\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.println(c1.seq);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e9:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;}\u0026amp;#160;}\u003c/span\u003e",
+          "explanation": "The \u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u003c/span\u003e block on line 3 does not compile because it references an instance variable. Without that line of code, each instance has its own \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003ci\u003eseq\u003c/i\u003e\u003c/span\u003e variable to set to \u003cspan class\u003d\"dCode dNoWrap\"\u003ecz\u003c/span\u003e.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "The code compiles and outputs \u003cspan class\u003d\"dCode dNoWrap\"\u003egzz\u003c/span\u003e."
+            },
+            {
+              "id": 2,
+              "textAnswer": "The code compiles and outputs \u003cspan class\u003d\"dCode dNoWrap\"\u003egzgz\u003c/span\u003e."
+            },
+            {
+              "id": 3,
+              "textAnswer": "If the lines that do not compile are removed, the code outputs \u003cspan class\u003d\"dCode dNoWrap\"\u003ecg\u003c/span\u003e."
+            },
+            {
+              "id": 4,
+              "textAnswer": "If the lines that do not compile are removed, the code outputs \u003cspan class\u003d\"dCode dNoWrap\"\u003ecz\u003c/span\u003e."
+            },
+            {
+              "id": 5,
+              "textAnswer": "If the lines that do not compile are removed, the code outputs \u003cspan class\u003d\"dCode dNoWrap\"\u003ecgzz\u003c/span\u003e."
+            },
+            {
+              "id": 6,
+              "textAnswer": "If the lines that do not compile are removed, the code outputs \u003cspan class\u003d\"dCode dNoWrap\"\u003ecgzzg\u003c/span\u003e."
+            }
+          ],
+          "correctAnswersIds": [
+            4
+          ]
+        },
+        {
+          "id": 30173,
+          "questionText": "Which of the following compile? (Choose all that apply)",
+          "explanation": "The varargs parameter must be the last parameter in the parameter list. The ellipsis (\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#133;\u003c/span\u003e) must go after the type that will be made into a vararg.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;void\u0026amp;#160;swim(int...\u0026amp;#160;distance)\u0026amp;#160;{}\u003c/span\u003e"
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;void\u0026amp;#160;swim(int...\u0026amp;#160;distance,\u0026amp;#160;int\u0026amp;#160;time)\u0026amp;#160;{}\u003c/span\u003e"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;void\u0026amp;#160;swim(int\u0026amp;#160;time,\u0026amp;#160;int...\u0026amp;#160;distance)\u0026amp;#160;{}\u003c/span\u003e"
+            },
+            {
+              "id": 4,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;void\u0026amp;#160;swim(int...\u0026amp;#160;distance,\u0026amp;#160;int,,,\u0026amp;#160;time)\u0026amp;#160;{}\u003c/span\u003e"
+            },
+            {
+              "id": 5,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;void\u0026amp;#160;swim(int\u0026amp;#160;time,\u0026amp;#160;...int\u0026amp;#160;distance)\u0026amp;#160;{}\u003c/span\u003e"
+            }
+          ],
+          "correctAnswersIds": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": 30205,
+          "questionText": "Which are true statements about the following code? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e1:\u0026amp;#160;public\u0026amp;#160;class\u0026amp;#160;I\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e2:\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;int\u0026amp;#160;ii;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;void\u0026amp;#160;i()\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;for\u0026amp;#160;(int\u0026amp;#160;i\u0026amp;#160;\u003d\u0026amp;#160;0;\u0026amp;#160;i\u0026amp;#160;\u0026amp;#60;\u0026amp;#160;5;\u0026amp;#160;i++)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e9:\u0026amp;#160;}\u0026amp;#160;}\u003c/span\u003e",
+          "explanation": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003ci\u003ei\u003c/i\u003e\u003c/span\u003e has a scope of the \u003cspan class\u003d\"dCode dNoWrap\"\u003efor\u003c/span\u003e loop. Therefore, it can be referenced on line 7 but not lines 2 or 5. \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003ci\u003ei\u003c/i\u003e\u003c/span\u003e has a scope of anywhere in the class once it is defined. Therefore, it can be referenced on line 5. It cannot be referenced on line 2 since it has not been declared yet.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u0026amp;#160;j\u0026amp;#160;\u003d\u0026amp;#160;i;\u003c/span\u003e can be inserted at line 2."
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u0026amp;#160;j\u0026amp;#160;\u003d\u0026amp;#160;i;\u003c/span\u003e can be inserted at line 5."
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u0026amp;#160;j\u0026amp;#160;\u003d\u0026amp;#160;i;\u003c/span\u003e can be inserted at line 7."
+            },
+            {
+              "id": 4,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u0026amp;#160;j\u0026amp;#160;\u003d\u0026amp;#160;ii;\u003c/span\u003e can be inserted at line 2."
+            },
+            {
+              "id": 5,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u0026amp;#160;j\u0026amp;#160;\u003d\u0026amp;#160;ii;\u003c/span\u003e can be inserted at line 5."
+            },
+            {
+              "id": 6,
+              "textAnswer": "The code does not compile."
+            }
+          ],
+          "correctAnswersIds": [
+            3,
+            5
+          ]
+        },
+        {
+          "id": 30226,
+          "questionText": "What is the result of following code?\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u0026amp;#160;s\u0026amp;#160;\u003d\u0026amp;#160;\"a\";\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003es\u0026amp;#160;+\u003d\u0026amp;#160;1;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003es.concat(s);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003es.concat(\".\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003eSystem.out.println(s);\u003c/span\u003e",
+          "explanation": "Remember that a \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e is immutable. The calls to \u003cspan class\u003d\"dCode dNoWrap\"\u003econcat()\u003c/span\u003e ignore the result and have no effect on \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003ci\u003es\u003c/i\u003e\u003c/span\u003e. This means the only code that is relevant here are the first two lines and \u003cspan class\u003d\"dCode dNoWrap\"\u003ea1\u003c/span\u003e is output. The code does compile because \u003cspan class\u003d\"dCode dNoWrap\"\u003es+\u003d1\u003c/span\u003e expands to \u003cspan class\u003d\"dCode dNoWrap\"\u003es\u003d\u0026amp;#160;s+1\u003c/span\u003e. Concatenating a \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e is allowed.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ea\u003c/span\u003e"
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ea1\u003c/span\u003e"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ea1a\u003c/span\u003e"
+            },
+            {
+              "id": 4,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ea1a.\u003c/span\u003e"
+            },
+            {
+              "id": 5,
+              "textAnswer": "An exception is thrown."
+            },
+            {
+              "id": 6,
+              "textAnswer": "The code does not compile."
+            }
+          ],
+          "correctAnswersIds": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 869,
+      "name": "Practice Exam 1",
+      "examQuestions": [
+        {
+          "id": 30091,
+          "questionText": "What is the result of the following program?\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e1:\u0026amp;#160;public\u0026amp;#160;class\u0026amp;#160;Egret\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e2:\u0026amp;#160;\u0026amp;#160;private\u0026amp;#160;String\u0026amp;#160;color;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;Egret(String\u0026amp;#160;color)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;color\u0026amp;#160;\u003d\u0026amp;#160;color;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;main(String[]\u0026amp;#160;args)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;\u0026amp;#160;Egret\u0026amp;#160;e\u0026amp;#160;\u003d\u0026amp;#160;new\u0026amp;#160;Egret();\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.println(\"Color:\"\u0026amp;#160;+\u0026amp;#160;e.color);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e9:\u0026amp;#160;}\u0026amp;#160;}\u003c/span\u003e",
+          "explanation": "Line 7 does not compile because there isn\u0027t a constructor defined with no arguments. If lines 3\u0026amp;#8211;5 were removed, the default constructor would be used. In this case, a constructor is declared, so the default constructor is not generated.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eColor:\u003c/span\u003e"
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eColor:null\u003c/span\u003e"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eColor:White\u003c/span\u003e"
+            },
+            {
+              "id": 4,
+              "textAnswer": "Compiler error on line 4"
+            },
+            {
+              "id": 5,
+              "textAnswer": "Compiler error on line 7"
+            },
+            {
+              "id": 6,
+              "textAnswer": "Compiler error another line"
+            }
+          ],
+          "correctAnswersIds": [
+            5
+          ]
+        },
+        {
+          "id": 30099,
+          "questionText": "Which of the following can fill in the blank to make this code compile? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;class\u0026amp;#160;ExceptionLogger\u0026amp;#160;{\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;logException(RuntimeException\u0026amp;#160;e)\u0026amp;#160;{\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.println(\"Logging\u0026amp;#160;\"\u0026amp;#160;+\u0026amp;#160;e);\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;}\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;main(String\u0026amp;#160;[]\u0026amp;#160;args)\u0026amp;#160;{\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;logException(new\u0026amp;#160;__________________);\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;}\u0026amp;#160;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e}\u0026amp;#160;\u003c/span\u003e",
+          "explanation": "Only a \u003cspan class\u003d\"dCode dNoWrap\"\u003eRuntimeException\u003c/span\u003e or a subclass can be passed into the \u003cspan class\u003d\"dCode dNoWrap\"\u003elogException\u003c/span\u003e method. \u003cspan class\u003d\"dCode dNoWrap\"\u003eNullPointerException\u003c/span\u003e is a subclass of \u003cspan class\u003d\"dCode dNoWrap\"\u003eRuntimeException\u003c/span\u003e. \u003cspan class\u003d\"dCode dNoWrap\"\u003eException\u003c/span\u003e is the parent class of \u003cspan class\u003d\"dCode dNoWrap\"\u003eRuntimeException\u003c/span\u003e. \u003cspan class\u003d\"dCode dNoWrap\"\u003eIOException\u003c/span\u003e is a subclass of \u003cspan class\u003d\"dCode dNoWrap\"\u003eException\u003c/span\u003e, but not \u003cspan class\u003d\"dCode dNoWrap\"\u003eRuntimeException\u003c/span\u003e. \u003cspan class\u003d\"dCode dNoWrap\"\u003eError\u003c/span\u003e is a subclass of \u003cspan class\u003d\"dCode dNoWrap\"\u003eThrowable\u003c/span\u003e, but not \u003cspan class\u003d\"dCode dNoWrap\"\u003eException\u003c/span\u003e.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eError()\u003c/span\u003e"
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eException()\u003c/span\u003e"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.io.IOException()\u003c/span\u003e"
+            },
+            {
+              "id": 4,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eNullPointerException()\u003c/span\u003e"
+            },
+            {
+              "id": 5,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eRuntimeException()\u003c/span\u003e"
+            }
+          ],
+          "correctAnswersIds": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": 30050,
+          "questionText": "Which of the following are included as a result of this code? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e3:\u0026amp;#160;String\u0026amp;#160;s\u0026amp;#160;\u003d\u0026amp;#160;\"Hello\";\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e4:\u0026amp;#160;String\u0026amp;#160;t\u0026amp;#160;\u003d\u0026amp;#160;new\u0026amp;#160;String(s);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e5:\u0026amp;#160;if\u0026amp;#160;(\"Hello\".equal(s))\u0026amp;#160;System.out.println(\"one\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e6:\u0026amp;#160;if\u0026amp;#160;(t\u0026amp;#160;\u003d\u003d\u0026amp;#160;s)\u0026amp;#160;System.out.println(\"two\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e7:\u0026amp;#160;if\u0026amp;#160;(t.equal(s))\u0026amp;#160;System.out.println(\"three\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e8:\u0026amp;#160;if\u0026amp;#160;(\"Hello\"\u0026amp;#160;\u003d\u003d\u0026amp;#160;s)\u0026amp;#160;System.out.println(\"four\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e9:\u0026amp;#160;if\u0026amp;#160;(\"Hello\"\u0026amp;#160;\u003d\u003d\u0026amp;#160;t)\u0026amp;#160;System.out.println(\"five\");\u003c/span\u003e",
+          "explanation": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eequal()\u003c/span\u003e is not the method used to compare two \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e objects. It should be \u003cspan class\u003d\"dCode dNoWrap\"\u003eequals()\u003c/span\u003e. Tricky, isn\u0027t it? The exam creators like to appear to be testing you on one thing when really asking something else. This question tries to mislead you into thinking it is about \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e logical equality versus reference equality. If \u003cspan class\u003d\"dCode dNoWrap\"\u003eequals()\u003c/span\u003e were in this code, the answer would be options A, C, and E.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003eone\u003c/span\u003e"
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003etwo\u003c/span\u003e"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ethree\u003c/span\u003e"
+            },
+            {
+              "id": 4,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003efour\u003c/span\u003e"
+            },
+            {
+              "id": 5,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003efive\u003c/span\u003e"
+            },
+            {
+              "id": 6,
+              "textAnswer": "The code does not compile."
+            }
+          ],
+          "correctAnswersIds": [
+            6
+          ]
+        },
+        {
+          "id": 30075,
+          "questionText": "What is the output of the following snippet?\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e12:\u0026amp;#160;int\u0026amp;#160;a\u0026amp;#160;\u003d\u0026amp;#160;123;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e13:\u0026amp;#160;int\u0026amp;#160;b\u0026amp;#160;\u003d\u0026amp;#160;0;\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e14:\u0026amp;#160;try\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e15:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(a\u0026amp;#160;/\u0026amp;#160;b);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e16:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(\"1\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e17:\u0026amp;#160;}\u0026amp;#160;catch\u0026amp;#160;(RuntimeException\u0026amp;#160;e)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e18:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(\"2\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e19:\u0026amp;#160;}\u0026amp;#160;catch\u0026amp;#160;(ArithmeticException\u0026amp;#160;e)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e20:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(\"3\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e21:\u0026amp;#160;}\u0026amp;#160;finally\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e22:\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;System.out.print(\"4\");\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e23:\u0026amp;#160;}\u003c/span\u003e",
+          "explanation": "Since \u003cspan class\u003d\"dCode dNoWrap\"\u003eArithmeticException\u003c/span\u003e extends \u003cspan class\u003d\"dCode dNoWrap\"\u003eRuntimeException\u003c/span\u003e, the \u003cspan class\u003d\"dCode dNoWrap\"\u003eArithmeticException\u003c/span\u003e \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e block is unreachable code. These two blocks need to be reversed to compile.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e14\u003c/span\u003e"
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e2\u003c/span\u003e"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e24\u003c/span\u003e"
+            },
+            {
+              "id": 4,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e3\u003c/span\u003e"
+            },
+            {
+              "id": 5,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003e34\u003c/span\u003e"
+            },
+            {
+              "id": 6,
+              "textAnswer": "The code does not compile."
+            },
+            {
+              "id": 7,
+              "textAnswer": "An uncaught exception is thrown."
+            }
+          ],
+          "correctAnswersIds": [
+            6
+          ]
+        },
+        {
+          "id": 30098,
+          "questionText": "Which can be inserted in the blank to make this code compile? (Choose all that apply)\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003eimport\u0026amp;#160;_________________;\u003c/span\u003e\u003cbr\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u0026amp;#160;class\u0026amp;#160;StartOfSummer\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;public\u0026amp;#160;static\u0026amp;#160;void\u0026amp;#160;main(String[]\u0026amp;#160;args)\u0026amp;#160;{\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;\u0026amp;#160;LocalDate\u0026amp;#160;date\u0026amp;#160;\u003d\u0026amp;#160;LocalDate.of(2014,\u0026amp;#160;Month.JUNE,\u0026amp;#160;21);\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#160;\u0026amp;#160;}\u003c/span\u003e\u003cbr\u003e\u003cspan class\u003d\"dCode dNoWrap\"\u003e}\u003c/span\u003e",
+          "explanation": "The Java 8 date and time classes are in the \u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.time\u003c/span\u003e package.",
+          "answers": [
+            {
+              "id": 1,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.date.*\u003c/span\u003e"
+            },
+            {
+              "id": 2,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.date.LocalDate\u003c/span\u003e"
+            },
+            {
+              "id": 3,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.time.*\u003c/span\u003e"
+            },
+            {
+              "id": 4,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.time.LocalDate\u003c/span\u003e"
+            },
+            {
+              "id": 5,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.util.*\u003c/span\u003e"
+            },
+            {
+              "id": 6,
+              "textAnswer": "\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.util.LocalDate\u003c/span\u003e"
+            }
+          ],
+          "correctAnswersIds": [
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

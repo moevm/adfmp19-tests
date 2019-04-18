@@ -1,0 +1,639 @@
+{
+   "mFlashCards":[
+      {
+         "answer":"The file \u003cspan class\u003d\"dCode dNoWrap\"\u003eHello.class\u003c/span\u003e must be in the subdirectory \u003cspan class\u003d\"dCode dNoWrap\"\u003ea/b/c\u003c/span\u003e.",
+         "id":"1",
+         "question":"The bytecode for a class named \u003cspan class\u003d\"dCode dNoWrap\"\u003eHello\u003c/span\u003e in the \u003cspan class\u003d\"dCode dNoWrap\"\u003ea.b.c\u003c/span\u003e package must appear in what directory structure?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic static void main(String[] args)\u003c/span\u003e",
+         "id":"2",
+         "question":"What is the most common signature of a \u003cspan class\u003d\"dCode dNoWrap\"\u003emain()\u003c/span\u003e method?"
+      },
+      {
+         "answer":"Object\u003c/span\u003e",
+         "id":"3",
+         "question":"An instance of a class is called a(n) _________________."
+      },
+      {
+         "answer":"The package declaration comes first, followed by imports, followed by the class declaration.",
+         "id":"4",
+         "question":"What order do the class declarations, import statements, and package declaration go within a file?"
+      },
+      {
+         "answer":"Trick question! \u003cspan class\u003d\"dCode dNoWrap\"\u003eSystem.gc()\u003c/span\u003e suggests that the garbage collector run but does not guarantee it.",
+         "id":"5",
+         "question":"What is the name of the method that guarantees the garbage collector will run?"
+      },
+      {
+         "answer":"False. The \u003cspan class\u003d\"dCode dNoWrap\"\u003efinalize\u003c/span\u003e method can be invoked at most once.",
+         "id":"6",
+         "question":"True or false: The \u003cspan class\u003d\"dCode dNoWrap\"\u003efinalize\u003c/span\u003e method of an \u003cspan class\u003d\"dCode dNoWrap\"\u003eObject\u003c/span\u003e may be invoked multiple times."
+      },
+      {
+         "answer":"It is a method (not a constructor) because it has a return type.",
+         "id":"7",
+         "question":"Is this a constructor or a method? \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic void MyClass() { }\u003c/span\u003e"
+      },
+      {
+         "answer":"Before. Instance initializer are blocks of code that are run before the constructor.",
+         "id":"8",
+         "question":"Are instance initializers run before or after the constructor?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003e*\u003d\u003d||\u003c/span\u003e",
+         "id":"9",
+         "question":"Order the following operators in decreasing order of precedence: \u003cspan class\u003d\"dCode dNoWrap\"\u003e||\u003d\u003d*\u003c/span\u003e"
+      },
+      {
+         "answer":"A \u003cspan class\u003d\"dCode dNoWrap\"\u003eswitch\u003c/span\u003e statement may have at most one \u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e statement.",
+         "id":"10",
+         "question":"How many \u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e statements can a single \u003cspan class\u003d\"dCode dNoWrap\"\u003eswitch\u003c/span\u003e statement have?"
+      },
+      {
+         "answer":"Barring any VM limits, there is no limit to the number of \u003cspan class\u003d\"dCode dNoWrap\"\u003ecase\u003c/span\u003e statements that a \u003cspan class\u003d\"dCode dNoWrap\"\u003eswitch\u003c/span\u003e statement can have, provided the constant value of each \u003cspan class\u003d\"dCode dNoWrap\"\u003ecase\u003c/span\u003e statement is unique.",
+         "id":"11",
+         "question":"How many \u003cspan class\u003d\"dCode dNoWrap\"\u003ecase\u003c/span\u003e statements can a single \u003cspan class\u003d\"dCode dNoWrap\"\u003eswitch\u003c/span\u003e statement have?"
+      },
+      {
+         "answer":"The right-hand side of short-circuit operators will not be evaluated if the value can be determined solely from the left-hand side.",
+         "id":"12",
+         "question":"Why should you be careful when evaluating the right-hand side of expressions that include \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;\u0026amp;\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003e||\u003c/span\u003e?"
+      },
+      {
+         "answer":"True",
+         "id":"13",
+         "question":"True or false: \u003cspan class\u003d\"dCode dNoWrap\"\u003e(5 \u0026amp;#60;\u003d 7) || (2 \u0026amp;#60; 0)\u003c/span\u003e"
+      },
+      {
+         "answer":"True",
+         "id":"14",
+         "question":"True or false: A case must be a constant expression."
+      },
+      {
+         "answer":"False. It can be an array or an object that implements \u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.lang.Iterable\u003c/span\u003e.",
+         "id":"15",
+         "question":"True or false: The collection in a \u003cspan class\u003d\"dCode dNoWrap\"\u003efor-each\u003c/span\u003e loop must be an array."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ebreak\u003c/span\u003e",
+         "id":"16",
+         "question":"A ___________________ statement transfers flow of control out of an enclosing statement."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003econtinue\u003c/span\u003e",
+         "id":"17",
+         "question":"A ___________________ statement within a loop transfers flow of control to the loop continuation point of the loop."
+      },
+      {
+         "answer":"Run: \u003cspan class\u003d\"dCode dNoWrap\"\u003ejavac Wolf.java\u003c/span\u003e (and it generates \u003cspan class\u003d\"dCode dNoWrap\"\u003eWolf.class\u003c/span\u003e)",
+         "id":"18",
+         "question":"What is the command line used to compile the Java class \u003cspan class\u003d\"dCode dNoWrap\"\u003eWolf.java\u003c/span\u003e and what file does it generate?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava Wolf\u003c/span\u003e",
+         "id":"19",
+         "question":"What is the command line to run the program contained in \u003cspan class\u003d\"dCode dNoWrap\"\u003eWolf.class\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eSystem.out.println(d.length);\u003c/span\u003e",
+         "id":"20",
+         "question":"Write a line of code to print the number of elements passed into this method: \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic void method(double... d)\u003c/span\u003e"
+      },
+      {
+         "answer":"Two. \u003cspan class\u003d\"dCode dNoWrap\"\u003eb\u003c/span\u003e is a one-dimensional array and \u003cspan class\u003d\"dCode dNoWrap\"\u003ec\u003c/span\u003e is a two-dimensional array.",
+         "id":"21",
+         "question":"How many arrays are created in this code and how many dimensions is each one? \u003cspan class\u003d\"dCode dNoWrap\"\u003eint[] b, c[];\u003c/span\u003e"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003e-3\u003c/span\u003e. The number isn\u0027t found but would be inserted at index 2 to preserve sort order. Remember that we negate that number and subtract 1 to get the answer.",
+         "id":"22",
+         "question":"What is returned by the following search? \u003cspan class\u003d\"dCode dNoWrap\"\u003eint[] numbers \u003d {2,4,6,8}; Arrays.binarySearch(numbers, 5)\u003c/span\u003e"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eSystem.out.println(abc.size());\u003c/span\u003e",
+         "id":"23",
+         "question":"Write code to print the number of elements in an \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayList\u003c/span\u003e named \u003cspan class\u003d\"dCode dNoWrap\"\u003eabc\u003c/span\u003e."
+      },
+      {
+         "answer":"The diamond operator.",
+         "id":"24",
+         "question":"What is the \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#60;\u0026amp;#62;\u003c/span\u003e called in \u003cspan class\u003d\"dCode dNoWrap\"\u003eList\u0026amp;#60;Integer\u0026amp;#62; a \u003d new ArrayList\u0026amp;#60;\u0026amp;#62;();\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eadd()\u003c/span\u003e",
+         "id":"25",
+         "question":"What method do you call on an \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayList\u003c/span\u003e to insert an element after all current elements?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eset()\u003c/span\u003e",
+         "id":"26",
+         "question":"What method do you call on an \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayList\u003c/span\u003e to replace the element at a given index with a different one?"
+      },
+      {
+         "answer":"Autoboxing",
+         "id":"27",
+         "question":"What is the process called when Java automatically converts an \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e to an \u003cspan class\u003d\"dCode dNoWrap\"\u003eInteger\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.time\u003c/span\u003e",
+         "id":"28",
+         "question":"What package are the new date/time classes in?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eLocalDate\u003c/span\u003e is just the date without time or time zone. \u003cspan class\u003d\"dCode dNoWrap\"\u003eLocalTime\u003c/span\u003e is just the time without date or time zone. \u003cspan class\u003d\"dCode dNoWrap\"\u003eLocalDateTime\u003c/span\u003e is the date and time without time zone.",
+         "id":"29",
+         "question":"What are the three key local date and time classes and what do they represent?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eLocalDateTime.now();\u003c/span\u003e",
+         "id":"30",
+         "question":"How do you create an object with the current date and time?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eLocalTime.plusHours(1);\u003c/span\u003e",
+         "id":"31",
+         "question":"How do you add an hour to a \u003cspan class\u003d\"dCode dNoWrap\"\u003eLocalTime\u003c/span\u003e object?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ePeriod.of(0, 1, 1);\u003c/span\u003e",
+         "id":"32",
+         "question":"How do you create a \u003cspan class\u003d\"dCode dNoWrap\"\u003ePeriod\u003c/span\u003e of a month and a day?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eDateTimeFormatter\u003c/span\u003e",
+         "id":"33",
+         "question":"What is the class used for formatting a date?"
+      },
+      {
+         "answer":"True.",
+         "id":"34",
+         "question":"True or false: An instance method is allowed to reference a \u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u003c/span\u003e variable."
+      },
+      {
+         "answer":"False (except through a reference to a class instance)",
+         "id":"35",
+         "question":"True or false: A static method is allowed to reference an instance variable."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eimport static a.b.C.LENGTH;\u003c/span\u003e or \u003cspan class\u003d\"dCode dNoWrap\"\u003eimport static a.b.C.*;\u003c/span\u003e",
+         "id":"36",
+         "question":"Write a \u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u003c/span\u003e import to import the static \u003cspan class\u003d\"dCode dNoWrap\"\u003eLENGTH\u003c/span\u003e variable of \u003cspan class\u003d\"dCode dNoWrap\"\u003ea.b.C\u003c/span\u003e."
+      },
+      {
+         "answer":"False. The parameter lists must be different.",
+         "id":"37",
+         "question":"True or false: Overloaded methods have the same method signatures."
+      },
+      {
+         "answer":"return type, access modifier, and exception list may vary. If the method name was different, it would be a different method rather than an overloaded method.",
+         "id":"38",
+         "question":"Which of the following may be different in an overloaded method: method name, return type, access modifier, exception list?"
+      },
+      {
+         "answer":"exact match, widening primitives, autoboxing, varargs.",
+         "id":"39",
+         "question":"Which order does Java use when looking for matches in overloaded methods: autoboxing, exact match, widening primitives, varargs."
+      },
+      {
+         "answer":"True. The caller points to the same object as the method parameter.",
+         "id":"40",
+         "question":"True or false: When passing an \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayList\u003c/span\u003e list to a method, calls to \u003cspan class\u003d\"dCode dNoWrap\"\u003elist.add()\u003c/span\u003e from the method are reflected in the caller."
+      },
+      {
+         "answer":"False. Parameters are passed by reference so reassignments do not affect the caller.",
+         "id":"41",
+         "question":"True or false: When passing an \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayList\u003c/span\u003e list to a method, calling \u003cspan class\u003d\"dCode dNoWrap\"\u003elist \u003d new ArrayList()\u003c/span\u003e from the method affects the caller."
+      },
+      {
+         "answer":"False. A default constructor is only provided if none are coded.",
+         "id":"42",
+         "question":"True or false: A default constructor is always provided in a class"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ethis()\u003c/span\u003e",
+         "id":"43",
+         "question":"How do you call one constructor from another in the same class?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ePredicate\u003c/span\u003e",
+         "id":"44",
+         "question":"What interface does Java provide for working with lambdas that declares a single method that returns a \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e?"
+      },
+      {
+         "answer":"The parentheses, braces, \u003cspan class\u003d\"dCode dNoWrap\"\u003ereturn\u003c/span\u003e statement, and semicolon. It could have been \u003cspan class\u003d\"dCode dNoWrap\"\u003ea-\u0026amp;#62;true\u003c/span\u003e.",
+         "id":"45",
+         "question":"Which characters in this statement are optional? \u003cspan class\u003d\"dCode dNoWrap\"\u003e(a) -\u0026amp;#62; { return true; }\u003c/span\u003e"
+      },
+      {
+         "answer":"None. The parentheses are required when there aren\u0027t any parameters. The braces are required because there are multiple statements.",
+         "id":"46",
+         "question":"Which characters in this statement are optional? \u003cspan class\u003d\"dCode dNoWrap\"\u003e() -\u0026amp;#62; { System.out.println(); return true; }\u003c/span\u003e"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.lang.Object\u003c/span\u003e",
+         "id":"47",
+         "question":"What type would be used for a method parameter if it needed to be able to support any variable?"
+      },
+      {
+         "answer":"Overloaded methods share the same name but different signatures and have no polymorphic relationship. Overridden methods share the same signature and are replaced at runtime in all places it is defined. Hidden methods are share the same signature but are only replaced in the subclasses for which they are defined.",
+         "id":"48",
+         "question":"What is the difference between overloading, overriding, and hiding a method?"
+      },
+      {
+         "answer":"By abstract, the method cannot be instantiated directly and must be implemented by a subclass. By marking the method \u003cspan class\u003d\"dCode dNoWrap\"\u003efinal\u003c/span\u003e, no subclass can implement it. Therefore, no concrete subclass could be created that includes the method.",
+         "id":"49",
+         "question":"Why can an abstract method not be marked \u003cspan class\u003d\"dCode dNoWrap\"\u003efinal\u003c/span\u003e?"
+      },
+      {
+         "answer":"True.",
+         "id":"50",
+         "question":"True or false: An abstract class that implements an interface is not required to implement any of the interface\u0027s abstract methods."
+      },
+      {
+         "answer":"To improve backward compatibility. Interface developers can add a new method to an interface without requiring developers using the interface to recompile their code.",
+         "id":"51",
+         "question":"What is one reason default methods were added to interfaces in Java 8?"
+      },
+      {
+         "answer":"False. Only nonfinal, nonstatic, and nonprivate methods are virtual in Java.",
+         "id":"52",
+         "question":"True or false: All methods in Java are virtual methods."
+      },
+      {
+         "answer":"You cannot override a \u003cspan class\u003d\"dCode dNoWrap\"\u003eprivate\u003c/span\u003e method, although you can replace it by hiding it.",
+         "id":"53",
+         "question":"How would you override a \u003cspan class\u003d\"dCode dNoWrap\"\u003eprivate\u003c/span\u003e method in Java?"
+      },
+      {
+         "answer":"When the parent class does not define a no-argument constructor.",
+         "id":"54",
+         "question":"When do you need to explicitly call \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper()\u003c/span\u003e in your constructor?"
+      },
+      {
+         "answer":"False.",
+         "id":"55",
+         "question":"True or false: If a parent class does not include a no-argument constructor, the child class cannot declare one."
+      },
+      {
+         "answer":"Only \u003cspan class\u003d\"dCode dNoWrap\"\u003ethis()\u003c/span\u003e would be used in the constructor. The second constructor would call the parent constructor itself.",
+         "id":"56",
+         "question":"If you have a constructor that calls another constructor in the same class, which should be used first, \u003cspan class\u003d\"dCode dNoWrap\"\u003ethis()\u003c/span\u003e or \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper()\u003c/span\u003e?"
+      },
+      {
+         "answer":"When a method in a child class overrides a method in a parent class, the return type is permitted to be a subclass of the return type of the method defined in the parent class.",
+         "id":"57",
+         "question":"Define a covariant return type."
+      },
+      {
+         "answer":"The one from the \u003cspan class\u003d\"dCode dNoWrap\"\u003efinally\u003c/span\u003e block",
+         "id":"58",
+         "question":"If the \u003cspan class\u003d\"dCode dNoWrap\"\u003etry\u003c/span\u003e block, \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e block, and \u003cspan class\u003d\"dCode dNoWrap\"\u003efinally\u003c/span\u003e block all throw an exception, which gets thrown to the caller?"
+      },
+      {
+         "answer":"False. The more general \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e blocks must appear below the more specific ones.",
+         "id":"59",
+         "question":"True or false: If a \u003cspan class\u003d\"dCode dNoWrap\"\u003etry\u003c/span\u003e statement has \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e blocks for \u003cspan class\u003d\"dCode dNoWrap\"\u003eIllegalArgumentException\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003eRuntimeException\u003c/span\u003e, the \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e blocks can be in either order."
+      },
+      {
+         "answer":"True; fewer exceptions are allowed to be declared.",
+         "id":"60",
+         "question":"True or false: If an interface has the method \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid run() throws Exception;\u003c/span\u003e, the implementing class is allowed to have the method \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic void run() { }\u003c/span\u003e."
+      },
+      {
+         "answer":"True; more specific exceptions are allowed to be declared.",
+         "id":"61",
+         "question":"True or false: If an interface has the method \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid run() throws Exception;\u003c/span\u003e, the implementing class is allowed to have the method \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic void run() throws IOException { }\u003c/span\u003e."
+      },
+      {
+         "answer":"False; broader exceptions are not allowed.",
+         "id":"62",
+         "question":"True or false: If an interface has the method \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid run() throws IOException;\u003c/span\u003e, the implementing class is allowed to have the \u003cspan class\u003d\"dCode dNoWrap\"\u003emethod public void run() throws Exception { }\u003c/span\u003e."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eIllegalArgumentException\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003eNumberFormatException\u003c/span\u003e",
+         "id":"63",
+         "question":"Which of the following exceptions are typically thrown by the programmer (and not the JVM\u003cspan class\u003d\"dCode dNoWrap\"\u003e)\u003c/span\u003e? \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayIndexOutOfBoundsException\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eClassCastException\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eIllegalArgumentException\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eNumberFormatException\u003c/span\u003e"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eFileNotFoundException\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003eIOException\u003c/span\u003e",
+         "id":"64",
+         "question":"Which of the following exceptions are checked exceptions? \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayIndexOutOfBoundsException\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eClassCastException\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eExceptionInInitializerError\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eFileNotFoundException\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eIOException\u003c/span\u003e"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ebyte\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eshort\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003elong\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003efloat\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003edouble\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003echar\u003c/span\u003e, and \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e",
+         "id":"164",
+         "question":"What are the eight primitive types in Java?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003es \u003d null\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003enum \u003d 0\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003eb \u003d false\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003ed \u003d 0.0\u003c/span\u003e",
+         "id":"264",
+         "question":"What are the default values for these instance variables: \u003cspan class\u003d\"dCode dNoWrap\"\u003eString s\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003eint num\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean b\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003edouble d\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eString s\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003eObject o\u003c/span\u003e can be assigned \u003cspan class\u003d\"dCode dNoWrap\"\u003enull\u003c/span\u003e because they are objects. \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e are primitives and so cannot be assigned \u003cspan class\u003d\"dCode dNoWrap\"\u003enull\u003c/span\u003e.",
+         "id":"364",
+         "question":"Which of the following variables can \u003cspan class\u003d\"dCode dNoWrap\"\u003enull\u003c/span\u003e be assigned to? \u003cspan class\u003d\"dCode dNoWrap\"\u003eString s\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003eObject o\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003eint num\u003c/span\u003e; \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean b\u003c/span\u003e"
+      },
+      {
+         "answer":"A letter, dollar sign, or underscore",
+         "id":"464",
+         "question":"What characters can a variable name begin with?"
+      },
+      {
+         "answer":"A letter, number, dollar sign or underscore",
+         "id":"564",
+         "question":"What characters may a variable name contain?"
+      },
+      {
+         "answer":"Local",
+         "id":"664",
+         "question":"Which variables require the programmer to initialize them before use: Class, Local or Instance?"
+      },
+      {
+         "answer":"Class",
+         "id":"764",
+         "question":"Which variables are in scope for the entire program: Class, Local or Instance?"
+      },
+      {
+         "answer":"Local",
+         "id":"864",
+         "question":"Which variables may have a scope smaller than a method: Class, Local or Instance?"
+      },
+      {
+         "answer":"Only the package \u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.lang\u003c/span\u003e is imported by default. It contains many classes.",
+         "id":"964",
+         "question":"What packages are imported by default?"
+      },
+      {
+         "answer":"Only \u003cspan class\u003d\"dCode dNoWrap\"\u003ea.b.B\u003c/span\u003e. The import wildcard only matches in that package directly, not subpackages.",
+         "id":"1064",
+         "question":"Which of the following classes do \u003cspan class\u003d\"dCode dNoWrap\"\u003eimport a.b.*\u003c/span\u003e actually import: \u003cspan class\u003d\"dCode dNoWrap\"\u003ea.A\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003ea.b.B\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003ea.b.c.C\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003edo-while\u003c/span\u003e",
+         "id":"1164",
+         "question":"The bodies of which of the following statements will be executed at least once even if the \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e expression initially evaluates to \u003cspan class\u003d\"dCode dNoWrap\"\u003efalse\u003c/span\u003e: \u003cspan class\u003d\"dCode dNoWrap\"\u003ewhile\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003edo-while\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003efor\u003c/span\u003e"
+      },
+      {
+         "answer":"The \u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e block can appear anywhere in the \u003cspan class\u003d\"dCode dNoWrap\"\u003eswitch\u003c/span\u003e statement, including the beginning, middle, and end.",
+         "id":"1264",
+         "question":"Where in a \u003cspan class\u003d\"dCode dNoWrap\"\u003eswitch\u003c/span\u003e statement does the \u003cspan class\u003d\"dCode dNoWrap\"\u003edefault\u003c/span\u003e block need to go?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ebyte\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eshort\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003echar\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eint\u003c/span\u003e, Enum, \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e, as well as \u003cspan class\u003d\"dCode dNoWrap\"\u003eByte\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eShort\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eCharacter\u003c/span\u003e, and \u003cspan class\u003d\"dCode dNoWrap\"\u003eInteger\u003c/span\u003e",
+         "id":"1364",
+         "question":"As of Java 8, which data types are permitted as the decision variable for a \u003cspan class\u003d\"dCode dNoWrap\"\u003eswitch\u003c/span\u003e statement?"
+      },
+      {
+         "answer":"No, they are optional if there is only one statement in the branch of the \u003cspan class\u003d\"dCode dNoWrap\"\u003eif\u003c/span\u003e statement.",
+         "id":"1464",
+         "question":"Are curly brackets \u003cspan class\u003d\"dCode dNoWrap\"\u003e{ }\u003c/span\u003e required in \u003cspan class\u003d\"dCode dNoWrap\"\u003eif-then\u003c/span\u003e statements?"
+      },
+      {
+         "answer":"True",
+         "id":"1564",
+         "question":"True or false: The \u003cspan class\u003d\"dCode dNoWrap\"\u003ebreak\u003c/span\u003e or \u003cspan class\u003d\"dCode dNoWrap\"\u003econtinue\u003c/span\u003e statement requires a semicolon when used without optional labels."
+      },
+      {
+         "answer":"The pre-increment operator, as in \u003cspan class\u003d\"dCode dNoWrap\"\u003e++x\u003c/span\u003e",
+         "id":"1664",
+         "question":"If you want the new value of an increment operator to be used in an expression after it is updated, which operator would you use?"
+      },
+      {
+         "answer":"You cannot negate a \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e value, at least not numerically using the minus operator \u003cspan class\u003d\"dCode dNoWrap\"\u003e\u0026amp;#8211;\u003c/span\u003e. You can invert the \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e value using the logical complement operator \u003cspan class\u003d\"dCode dNoWrap\"\u003e!\u003c/span\u003e",
+         "id":"1764",
+         "question":"How do you negate a \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean\u003c/span\u003e value?"
+      },
+      {
+         "answer":"1",
+         "id":"1864",
+         "question":"What is \u003cspan class\u003d\"dCode dNoWrap\"\u003e12 % 5 - 1\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003e3345\u003c/span\u003e. It is evaluated as \u003cspan class\u003d\"dCode dNoWrap\"\u003e1 + 2 becomes 3\u003c/span\u003e, then \u003cspan class\u003d\"dCode dNoWrap\"\u003e3 + \"3\" becomes \"33\"\u003c/span\u003e, then \u003cspan class\u003d\"dCode dNoWrap\"\u003e\"33\" + 4 becomes \"334\"\u003c/span\u003e, and finally \u003cspan class\u003d\"dCode dNoWrap\"\u003e\"334\" + 5 becomes \"3345\"\u003c/span\u003e. The quotes aren\u0027t printed.",
+         "id":"1964",
+         "question":"What does \u003cspan class\u003d\"dCode dNoWrap\"\u003eSystem.out.println(1 + 2 + \"3\" + 4 + 5);\u003c/span\u003e print?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003es are the only immutable objects in the list.",
+         "id":"2064",
+         "question":"Which are immutable: \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuffer\u003c/span\u003e, arrays, or \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayList\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e is thread-safe because it is immutable and \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuffer\u003c/span\u003e is also thread-safe.",
+         "id":"2164",
+         "question":"Which are thread-safe: \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuffer\u003c/span\u003e, arrays, or \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayList\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e is the only class in that list that is final.",
+         "id":"2264",
+         "question":"Which are final: \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuffer\u003c/span\u003e, arrays, or \u003cspan class\u003d\"dCode dNoWrap\"\u003eArrayList\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003em\u003c/span\u003e. The substring starts with the character at index 1 (\u003cspan class\u003d\"dCode dNoWrap\"\u003em\u003c/span\u003e) and ends with the character before index 2.",
+         "id":"2364",
+         "question":"What does this code print? \u003cspan class\u003d\"dCode dNoWrap\"\u003eString s \u003d \"hmm\"; System.\u003ci\u003eout\u003c/i\u003e.println(s.substring(1, 2));\u003c/span\u003e."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ehmm\u003c/span\u003e. The result of the substring is not stored anywhere and strings are immutable so \u003cspan class\u003d\"dCode dNoWrap\"\u003es\u003c/span\u003e itself is not saved.",
+         "id":"2464",
+         "question":"What does this code print? \u003cspan class\u003d\"dCode dNoWrap\"\u003eString s \u003d \"hmm\"; s.substring(1); System.\u003ci\u003eout\u003c/i\u003e.println(s);\u003c/span\u003e"
+      },
+      {
+         "answer":"All three can be chained because they returned a \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e.",
+         "id":"2564",
+         "question":"Which of the following \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e methods can be chained: \u003cspan class\u003d\"dCode dNoWrap\"\u003eappend\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003edelete\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003einsert\u003c/span\u003e?"
+      },
+      {
+         "answer":"Only \u003cspan class\u003d\"dCode dNoWrap\"\u003ereverse\u003c/span\u003e can be chained because it returns a \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e. The other two return a \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003e.",
+         "id":"2664",
+         "question":"Which of the following \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e methods can be chained: \u003cspan class\u003d\"dCode dNoWrap\"\u003ereverse\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003esubstring\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003etoString\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003esur!!prise\u003c/span\u003e",
+         "id":"2764",
+         "question":"What is in the \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e created by \u003cspan class\u003d\"dCode dNoWrap\"\u003enew StringBuilder(\"surprise\").insert(3, \"!!\")\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e is faster because it doesn\u0027t need to be thread-safe.",
+         "id":"2864",
+         "question":"Why is \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuilder\u003c/span\u003e better than \u003cspan class\u003d\"dCode dNoWrap\"\u003eStringBuffer\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003e\u003d\u003d\u003c/span\u003e",
+         "id":"2964",
+         "question":"______ is used when comparing variables to see if they point to the same object."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eequals()\u003c/span\u003e",
+         "id":"3064",
+         "question":"_____ is used to reliably check if two \u003cspan class\u003d\"dCode dNoWrap\"\u003eString\u003c/span\u003es are the same."
+      },
+      {
+         "answer":"Just one. The references are all set to \u003cspan class\u003d\"dCode dNoWrap\"\u003enull\u003c/span\u003e by default.",
+         "id":"3164",
+         "question":"How many objects are created in \u003cspan class\u003d\"dCode dNoWrap\"\u003eString[] s \u003d new String[5];\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eSystem.out.println(abc.length);\u003c/span\u003e",
+         "id":"3264",
+         "question":"Write a line of code to print the number of elements in \u003cspan class\u003d\"dCode dNoWrap\"\u003eint abc[] \u003d new int[9];\u003c/span\u003e."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eSystem.out.println(b[0] + \" \" + b[b.length \u0026amp;#8211; 1]); or \u003cbr/\u003eSystem.out.println(b[0] + \" \" + b[1);\u003c/span\u003e",
+         "id":"3364",
+         "question":"Write a line of code to print both the first and last index of this array: \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean[] b \u003d {true, false};\u003c/span\u003e"
+      },
+      {
+         "answer":"access modifiers, optional specifiers, return type, method name, parameter list, exception clause, method body",
+         "id":"3464",
+         "question":"List the seven parts of a method declaration in order (including what exceptions are thrown)."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eprivate\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003eprotected\u003c/span\u003e, and default. The first three are keywords in Java. The last is specified with the lack of a keyword.",
+         "id":"3564",
+         "question":"List all the access modifiers in Java."
+      },
+      {
+         "answer":"Comma (,)",
+         "id":"3664",
+         "question":"What character separates parameters in a parameter list?"
+      },
+      {
+         "answer":"When the return type is \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid\u003c/span\u003e.",
+         "id":"3764",
+         "question":"When is a return statement not required in a method?"
+      },
+      {
+         "answer":"A vararg parameter must be the last parameter in a parameter list and only one is allowed per method.",
+         "id":"3864",
+         "question":"What is wrong with \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic void method(String... s, int... b) {}\u003c/span\u003e?"
+      },
+      {
+         "answer":"Code in the same class.",
+         "id":"3964",
+         "question":"What code can call private methods?"
+      },
+      {
+         "answer":"Code in the same package.",
+         "id":"4064",
+         "question":"What code can call the method \u003cspan class\u003d\"dCode dNoWrap\"\u003evoid print() {}\u003c/span\u003e?"
+      },
+      {
+         "answer":"Code in the same package or code that subclasses the class containing that instance variable.",
+         "id":"4164",
+         "question":"What code can read protected \u003cspan class\u003d\"dCode dNoWrap\"\u003eString s\u003c/span\u003e?"
+      },
+      {
+         "answer":"private, public",
+         "id":"4264",
+         "question":"In an encapsulated class, instance variables are of ___________ scope and getters/setters are of ____________ scope."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003e  public void setS(String s) { this.s \u003d s; }\u003c/span\u003e",
+         "id":"4364",
+         "question":"When following JavaBean naming conventions, what would be the mutator method for the property \u003cspan class\u003d\"dCode dNoWrap\"\u003eString s;\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003e  public String getS() { return s; }\u003c/span\u003e",
+         "id":"4464",
+         "question":"When following JavaBean naming conventions, what would be the accessor method for the property \u003cspan class\u003d\"dCode dNoWrap\"\u003eString s;\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003e  public boolean isB() { return b; }\u003c/span\u003e",
+         "id":"4564",
+         "question":"When following JavaBean naming conventions, what would be the accessor method for the property \u003cspan class\u003d\"dCode dNoWrap\"\u003eboolean b;\u003c/span\u003e?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eStaticMethod.callMe();\u003c/span\u003e",
+         "id":"4664",
+         "question":"How do you call this method from another class? \u003cspan class\u003d\"dCode dNoWrap\"\u003epublic class StaticMethod { public static void callMe() { } }\u003c/span\u003e"
+      },
+      {
+         "answer":"False. While an interface shares many properties of an abstract class, it is not actually an abstract class.",
+         "id":"4764",
+         "question":"True or false: An interface is a type of abstract class."
+      },
+      {
+         "answer":"Abstract methods, default methods, static methods, and static final variables",
+         "id":"4864",
+         "question":"What are the four types of members an interface may include?"
+      },
+      {
+         "answer":"False. A reference to a class may be automatically used as a reference to a superclass without an explicit cast.",
+         "id":"4964",
+         "question":"True or false: A reference to a class may be automatically used as a reference to a subclass without an explicit cast."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u003c/span\u003e",
+         "id":"5064",
+         "question":"What modifier(s) do all members of an interface implicitly have?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003epublic\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003estatic\u003c/span\u003e, \u003cspan class\u003d\"dCode dNoWrap\"\u003efinal\u003c/span\u003e",
+         "id":"5164",
+         "question":"What modifier(s) do all variables of an interface implicitly have?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003eimplements\u003c/span\u003e",
+         "id":"5264",
+         "question":"What keyword would be used for a class that uses an interface?"
+      },
+      {
+         "answer":"Trick question! A class cannot extend an interface.",
+         "id":"5364",
+         "question":"What keyword would be used for a class that extends an interface?"
+      },
+      {
+         "answer":"False. A method may instead call \u003cspan class\u003d\"dCode dNoWrap\"\u003ethis()\u003c/span\u003e as the first line of the constructor instead of \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper()\u003c/span\u003e, although it will eventually resolve to a constructor that calls \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper()\u003c/span\u003e as its first line.",
+         "id":"5464",
+         "question":"True or false: The first line of every constructor is a call to the parent constructor via the \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper()\u003c/span\u003e command."
+      },
+      {
+         "answer":"The \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper()\u003c/span\u003e command calls the constructor of the parent class and is used in the first line of every child constructor, whereas \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper\u003c/span\u003e is a keyword used to reference a member of the parent class.",
+         "id":"5564",
+         "question":"What is the difference between \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper()\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper\u003c/span\u003e?"
+      },
+      {
+         "answer":"True",
+         "id":"5664",
+         "question":"True or false: For inherited methods of the parent class, both \u003cspan class\u003d\"dCode dNoWrap\"\u003esuper\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003ethis\u003c/span\u003e can be used interchangeably within a child class to access the method, assuming the child class does not override it."
+      },
+      {
+         "answer":"Unchecked",
+         "id":"5764",
+         "question":"Is a class that extends \u003cspan class\u003d\"dCode dNoWrap\"\u003eRuntimeException\u003c/span\u003e a checked or unchecked exception?"
+      },
+      {
+         "answer":"False. A program must handle or declare checked exceptions. It should not handle or declare \u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.lang.Error\u003c/span\u003e.",
+         "id":"5864",
+         "question":"True or false: A program should handle or declare \u003cspan class\u003d\"dCode dNoWrap\"\u003ejava.lang.Error\u003c/span\u003e."
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003ethrow\u003c/span\u003e is used when throwing an exception. \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrows\u003c/span\u003e is used in a method declaration.",
+         "id":"5964",
+         "question":"When do you use the \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrow\u003c/span\u003e and \u003cspan class\u003d\"dCode dNoWrap\"\u003ethrows\u003c/span\u003e keywords?"
+      },
+      {
+         "answer":"Zero or one",
+         "id":"6064",
+         "question":"A \u003cspan class\u003d\"dCode dNoWrap\"\u003etry\u003c/span\u003e statement is allowed to have how many \u003cspan class\u003d\"dCode dNoWrap\"\u003efinally\u003c/span\u003e blocks?"
+      },
+      {
+         "answer":"Zero or more (zero if it has a \u003cspan class\u003d\"dCode dNoWrap\"\u003efinally\u003c/span\u003e block)",
+         "id":"6164",
+         "question":"A regular \u003cspan class\u003d\"dCode dNoWrap\"\u003etry\u003c/span\u003e statement (not a \u003cspan class\u003d\"dCode dNoWrap\"\u003etry-with-resources\u003c/span\u003e) statement is allowed to have how many \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e blocks?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003etry\u003c/span\u003e followed by \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e followed by \u003cspan class\u003d\"dCode dNoWrap\"\u003efinally\u003c/span\u003e",
+         "id":"6264",
+         "question":"If a \u003cspan class\u003d\"dCode dNoWrap\"\u003etry\u003c/span\u003e statement has both a \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e block and a \u003cspan class\u003d\"dCode dNoWrap\"\u003efinally\u003c/span\u003e block, which order do they run in if an exception is thrown?"
+      },
+      {
+         "answer":"\u003cspan class\u003d\"dCode dNoWrap\"\u003etry\u003c/span\u003e followed by \u003cspan class\u003d\"dCode dNoWrap\"\u003efinally\u003c/span\u003e",
+         "id":"6364",
+         "question":"If a \u003cspan class\u003d\"dCode dNoWrap\"\u003etry\u003c/span\u003e statement has both a \u003cspan class\u003d\"dCode dNoWrap\"\u003ecatch\u003c/span\u003e block and a \u003cspan class\u003d\"dCode dNoWrap\"\u003efinally\u003c/span\u003e block, which order do they run in if an exception is not thrown?"
+      }
+   ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+              android:orientation="vertical" android:id="@+id/activity_flash_cards" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:padding="16dp" android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+            <ProgressBar android:id="@+id/flashCardsProgress" android:layout_width="0dp"
+                         android:layout_height="wrap_content" android:layout_marginRight="10dp"
+                         android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+            <TextView android:textColor="#0004ec" android:id="@+id/currentFlashCardNumber"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+                      android:text="from"/>
+            <TextView android:textColor="@android:color/black" android:id="@+id/flashCardsCount"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <TextView android:id="@+id/card_content"
+                 android:layout_width="match_parent" android:layout_height="0dp"
+                 android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="16dp"
+                 android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_weight="1"/>
+
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+                 <!--android:id="@+id/container"-->
+                 <!--android:layout_width="match_parent" android:layout_height="0dp"-->
+                 <!--android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="16dp"-->
+                 <!--android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_weight="1"/>-->
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+        <Button
+                android:id="@+id/previousCard"
+                android:text="@string/prev"
+                android:textSize="30sp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp" android:layout_marginRight="12dp"/>
+
+        <Button
+                android:id="@+id/nextCard"
+                android:text="@string/next"
+                android:textSize="30sp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp" android:layout_marginLeft="12dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exam App</string>
+    <string name="action_settings">Settings</string>
+    <string name="prev">&lt;</string>
+    <string name="next">&gt;</string>
+    <string name="flashcards">Flash Cards</string>
+    <string name="practice">Practice</string>
+    <string name="test_session">Test Session</string>
+    <string name="test">Test</string>
+</resources>

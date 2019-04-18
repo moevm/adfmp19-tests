@@ -1,0 +1,54 @@
+{
+   "flashCards":[
+      {
+         "answer":"The file Hello.class must be in the subdirectory a/b/c.",
+         "id":"1",
+         "question":"The bytecode for a class named Hello in the a.b.c package must appear in what directory structure?"
+      },
+      {
+         "answer":"public static void main(String[] args)",
+         "id":"2",
+         "question":"What is the most common signature of a main() method?"
+      },
+      {
+         "answer":"Object",
+         "id":"3",
+         "question":"An instance of a class is called a(n) _________________."
+      },
+      {
+         "answer":"The package declaration comes first, followed by imports, followed by the class declaration.",
+         "id":"4",
+         "question":"What order do the class declarations, import statements, and package declaration go within a file?"
+      },
+      {
+         "answer":"Trick question! System.gc() suggests that the garbage collector run but does not guarantee it.",
+         "id":"5",
+         "question":"What is the name of the method that guarantees the garbage collector will run?"
+      },
+      {
+         "answer":"False. The finalize method can be invoked at most once.",
+         "id":"6",
+         "question":"True or false: The finalize method of an Object may be invoked multiple times."
+      },
+      {
+         "answer":"It is a method (not a constructor) because it has a return type.",
+         "id":"7",
+         "question":"Is this a constructor or a method? public void MyClass() { }"
+      },
+      {
+         "answer":"Before. Instance initializer are blocks of code that are run before the constructor.",
+         "id":"8",
+         "question":"Are instance initializers run before or after the constructor?"
+      },
+      {
+         "answer":"*||",
+         "id":"9",
+         "question":"Order the following operators in decreasing order of precedence: ||*"
+      },
+      {
+         "answer":"A switch statement may have at most one default statement.",
+         "id":"10",
+         "question":"How many default statements can a single switch statement have?"
+      }
+   ]
+}
